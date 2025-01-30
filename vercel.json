@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "iptv.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "iptv.py" }
+  ]
+}
