@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify, render_template_string
 import os
-import requests
 
 app = Flask(__name__)
 
@@ -18,12 +17,14 @@ HTML_CONTENT = """
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <style>
         body { background-color: #121212; color: white; font-family: Arial, sans-serif; }
-        .container { max-width: 900px; margin-top: 20px; }
-        #video-container { display: none; margin-top: 20px; }
+        .container { max-width: 1200px; margin: 20px auto; }
+        #video-container { margin-top: 20px; }
         .channel-list { max-height: 400px; overflow-y: auto; }
-        .video-js { width: 100%; height: 500px; }
+        .video-js { width: 100%; height: 500px; background: #000; }
         .btn-custom { margin-top: 10px; }
+        .controls { margin-top: 10px; display: flex; gap: 10px; }
         .folder { cursor: pointer; color: #0d6efd; }
+        .video-js .vjs-control-bar { background: rgba(0, 0, 0, 0.7); }
     </style>
     <script>
         let player;
@@ -66,6 +67,7 @@ HTML_CONTENT = """
 
             let reader = new FileReader();
             reader.onload = function(event) {
+                localStorage.setItem('m3uFile', event.target.result);
                 fetchChannels("m3u", { filename: file.name, content: event.target.result });
             };
             reader.readAsText(file);
@@ -80,31 +82,39 @@ HTML_CONTENT = """
             let videoContainer = document.getElementById('video-container');
             videoContainer.style.display = 'block';
 
-            if (!player) {
-                player = videojs('video-player', {
-                    controls: true,
-                    autoplay: true,
-                    fluid: true,
-                });
-                player.hlsQualitySelector();
+            if (player) {
+                player.dispose();
             }
+
+            player = videojs('video-player', {
+                controls: true,
+                autoplay: true,
+                fluid: true,
+                html5: {
+                    hls: {
+                        enableLowInitialPlaylist: true,
+                        smoothQualityChange: true,
+                        overrideNative: true
+                    }
+                }
+            });
+
+            player.hlsQualitySelector({
+                displayCurrentQuality: true,
+            });
 
             player.src({ src: url, type: 'application/x-mpegURL' });
             player.play();
         }
 
-        function loginXtream() {
-            let username = document.getElementById("xtream-username").value;
-            let password = document.getElementById("xtream-password").value;
-            let server = document.getElementById("xtream-server").value;
-            fetchChannels("xtream", { username: username, password: password, server: server });
+        function loadLocalStorage() {
+            let m3uContent = localStorage.getItem('m3uFile');
+            if (m3uContent) {
+                fetchChannels("m3u", { content: m3uContent });
+            }
         }
 
-        function loginStalker() {
-            let mac = document.getElementById("stalker-mac").value;
-            let server = document.getElementById("stalker-server").value;
-            fetchChannels("stalker", { mac: mac, server: server });
-        }
+        window.onload = loadLocalStorage;
     </script>
 </head>
 <body>
@@ -123,27 +133,14 @@ HTML_CONTENT = """
             <button class="btn btn-success btn-custom" onclick="fetchFromURL()">Fetch & Load</button>
         </div>
 
-        <div class="mb-3">
-            <h3>Xtream Codes Login</h3>
-            <input type="text" id="xtream-username" class="form-control" placeholder="Username">
-            <input type="password" id="xtream-password" class="form-control" placeholder="Password">
-            <input type="text" id="xtream-server" class="form-control" placeholder="Server URL">
-            <button class="btn btn-warning btn-custom" onclick="loginXtream()">Login</button>
-        </div>
-
-        <div class="mb-3">
-            <h3>Stalker Portal Login</h3>
-            <input type="text" id="stalker-mac" class="form-control" placeholder="MAC Address">
-            <input type="text" id="stalker-server" class="form-control" placeholder="Server URL">
-            <button class="btn btn-info btn-custom" onclick="loginStalker()">Login</button>
-        </div>
-
         <h3>Channels</h3>
         <div id="channel-list" class="list-group channel-list"></div>
 
         <div id="video-container">
             <h3>Now Playing</h3>
-            <video id="video-player" class="video-js vjs-default-skin" controls></video>
+            <video id="video-player" class="video-js vjs-default-skin" controls>
+                <track kind="captions" src="" label="Subtitles" default>
+            </video>
         </div>
     </div>
 </body>
@@ -176,19 +173,6 @@ def fetch_channels():
             except:
                 return jsonify({'error': 'Failed to fetch M3U URL'}), 400
 
-    elif source_type == "xtream":
-        username = data.get('username')
-        password = data.get('password')
-        server = data.get('server')
-        if username and password and server:
-            channels = fetch_xtream_channels(username, password, server)
-
-    elif source_type == "stalker":
-        mac = data.get('mac')
-        server = data.get('server')
-        if mac and server:
-            channels = fetch_stalker_channels(mac, server)
-
     elif source_type == "folder":
         path = data.get('path')
         if path:
@@ -211,26 +195,6 @@ def parse_m3u(content):
                 current_name = None
 
     return channels
-
-def fetch_xtream_channels(username, password, server):
-    try:
-        url = f"{server}/player_api.php?username={username}&password={password}&action=get_live_streams"
-        response = requests.get(url)
-        if response.status_code == 200:
-            data = response.json()
-            return [{"name": stream['name'], "url": stream['stream_url']} for stream in data]
-    except:
-        return []
-
-def fetch_stalker_channels(mac, server):
-    try:
-        url = f"{server}/server/load.php?type=stb&action=get_profile&mac={mac}"
-        response = requests.get(url)
-        if response.status_code == 200:
-            data = response.json()
-            return [{"name": channel['name'], "url": channel['url']} for channel in data['channels']]
-    except:
-        return []
 
 def fetch_folder_content(path):
     channels = []
