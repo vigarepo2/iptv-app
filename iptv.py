@@ -1,4 +1,6 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template_string
+import os
+import requests
 
 app = Flask(__name__)
 
@@ -21,6 +23,7 @@ HTML_CONTENT = """
         .channel-list { max-height: 400px; overflow-y: auto; }
         .video-js { width: 100%; height: 500px; }
         .btn-custom { margin-top: 10px; }
+        .folder { cursor: pointer; color: #0d6efd; }
     </style>
     <script>
         let player;
@@ -35,7 +38,7 @@ HTML_CONTENT = """
             .then(data => {
                 let channelList = document.getElementById("channel-list");
                 channelList.innerHTML = "";
-                if (data.channels.length > 0) {
+                if (data.channels && data.channels.length > 0) {
                     data.channels.forEach(channel => {
                         let btn = document.createElement("button");
                         btn.className = "list-group-item list-group-item-action";
@@ -43,8 +46,16 @@ HTML_CONTENT = """
                         btn.onclick = function() { playChannel(channel.url); };
                         channelList.appendChild(btn);
                     });
+                } else if (data.folders && data.folders.length > 0) {
+                    data.folders.forEach(folder => {
+                        let div = document.createElement("div");
+                        div.className = "folder";
+                        div.textContent = folder.name;
+                        div.onclick = function() { fetchChannels('folder', { path: folder.path }); };
+                        channelList.appendChild(div);
+                    });
                 } else {
-                    channelList.innerHTML = "<p class='text-danger'>No channels found!</p>";
+                    channelList.innerHTML = "<p class='text-danger'>No channels or folders found!</p>";
                 }
             });
         }
@@ -81,6 +92,19 @@ HTML_CONTENT = """
             player.src({ src: url, type: 'application/x-mpegURL' });
             player.play();
         }
+
+        function loginXtream() {
+            let username = document.getElementById("xtream-username").value;
+            let password = document.getElementById("xtream-password").value;
+            let server = document.getElementById("xtream-server").value;
+            fetchChannels("xtream", { username: username, password: password, server: server });
+        }
+
+        function loginStalker() {
+            let mac = document.getElementById("stalker-mac").value;
+            let server = document.getElementById("stalker-server").value;
+            fetchChannels("stalker", { mac: mac, server: server });
+        }
     </script>
 </head>
 <body>
@@ -97,6 +121,21 @@ HTML_CONTENT = """
             <label class="form-label">Fetch from M3U URL:</label>
             <input type="text" id="m3u-url" class="form-control" placeholder="Enter M3U URL">
             <button class="btn btn-success btn-custom" onclick="fetchFromURL()">Fetch & Load</button>
+        </div>
+
+        <div class="mb-3">
+            <h3>Xtream Codes Login</h3>
+            <input type="text" id="xtream-username" class="form-control" placeholder="Username">
+            <input type="password" id="xtream-password" class="form-control" placeholder="Password">
+            <input type="text" id="xtream-server" class="form-control" placeholder="Server URL">
+            <button class="btn btn-warning btn-custom" onclick="loginXtream()">Login</button>
+        </div>
+
+        <div class="mb-3">
+            <h3>Stalker Portal Login</h3>
+            <input type="text" id="stalker-mac" class="form-control" placeholder="MAC Address">
+            <input type="text" id="stalker-server" class="form-control" placeholder="Server URL">
+            <button class="btn btn-info btn-custom" onclick="loginStalker()">Login</button>
         </div>
 
         <h3>Channels</h3>
@@ -120,6 +159,7 @@ def fetch_channels():
     data = request.json
     source_type = data.get('type')
     channels = []
+    folders = []
 
     if source_type == "m3u":
         content = data.get('content')
@@ -129,7 +169,6 @@ def fetch_channels():
     elif source_type == "url":
         url = data.get('url')
         if url:
-            import requests
             try:
                 response = requests.get(url)
                 if response.status_code == 200:
@@ -137,7 +176,25 @@ def fetch_channels():
             except:
                 return jsonify({'error': 'Failed to fetch M3U URL'}), 400
 
-    return jsonify({'channels': channels})
+    elif source_type == "xtream":
+        username = data.get('username')
+        password = data.get('password')
+        server = data.get('server')
+        if username and password and server:
+            channels = fetch_xtream_channels(username, password, server)
+
+    elif source_type == "stalker":
+        mac = data.get('mac')
+        server = data.get('server')
+        if mac and server:
+            channels = fetch_stalker_channels(mac, server)
+
+    elif source_type == "folder":
+        path = data.get('path')
+        if path:
+            channels, folders = fetch_folder_content(path)
+
+    return jsonify({'channels': channels, 'folders': folders})
 
 def parse_m3u(content):
     lines = content.splitlines()
@@ -154,6 +211,38 @@ def parse_m3u(content):
                 current_name = None
 
     return channels
+
+def fetch_xtream_channels(username, password, server):
+    try:
+        url = f"{server}/player_api.php?username={username}&password={password}&action=get_live_streams"
+        response = requests.get(url)
+        if response.status_code == 200:
+            data = response.json()
+            return [{"name": stream['name'], "url": stream['stream_url']} for stream in data]
+    except:
+        return []
+
+def fetch_stalker_channels(mac, server):
+    try:
+        url = f"{server}/server/load.php?type=stb&action=get_profile&mac={mac}"
+        response = requests.get(url)
+        if response.status_code == 200:
+            data = response.json()
+            return [{"name": channel['name'], "url": channel['url']} for channel in data['channels']]
+    except:
+        return []
+
+def fetch_folder_content(path):
+    channels = []
+    folders = []
+    for root, dirs, files in os.walk(path):
+        for dir in dirs:
+            folders.append({"name": dir, "path": os.path.join(root, dir)})
+        for file in files:
+            if file.endswith('.m3u'):
+                with open(os.path.join(root, file), 'r') as f:
+                    channels.extend(parse_m3u(f.read()))
+    return channels, folders
 
 if __name__ == '__main__':
     app.run(debug=True)
