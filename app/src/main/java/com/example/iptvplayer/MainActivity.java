@@ -1,33 +1,23 @@
 package com.example.iptvplayer;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.webkit.WebChromeClient;
-import android.webkit.WebSettings;
 import android.webkit.WebView;
-import androidx.appcompat.app.AppCompatActivity;
+import android.webkit.WebViewClient;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
     private WebView webView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        webView = findViewById(R.id.webview);
-
-        // Enable JavaScript
-        WebSettings webSettings = webView.getSettings();
-        webSettings.setJavaScriptEnabled(true);
-
-        // Enable DOM storage (for local file support)
-        webSettings.setDomStorageEnabled(true);
-
-        // Set a WebChromeClient to handle video playback
+        webView = new WebView(this);
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.setWebViewClient(new WebViewClient());
         webView.setWebChromeClient(new WebChromeClient());
-
-        // Load the HTML/JS app
         webView.loadUrl("file:///android_asset/iptv_player.html");
+        setContentView(webView);
     }
 
     @Override
