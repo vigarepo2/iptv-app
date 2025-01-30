@@ -2,9 +2,6 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-# Store M3U data in memory
-uploaded_m3u_data = {}
-
 HTML_CONTENT = """
 <!DOCTYPE html>
 <html lang="en">
@@ -13,14 +10,21 @@ HTML_CONTENT = """
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IPTV Player</title>
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/video.js@7.20.3/dist/video.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/videojs-hls-quality-selector@1.1.3/dist/videojs-hls-quality-selector.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/video.js@7.20.3/dist/video-js.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <style>
-        body { background-color: #1e1e1e; color: white; }
-        .container { max-width: 800px; margin-top: 20px; }
+        body { background-color: #121212; color: white; font-family: Arial, sans-serif; }
+        .container { max-width: 900px; margin-top: 20px; }
         #video-container { display: none; margin-top: 20px; }
-        .channel-list { max-height: 300px; overflow-y: auto; }
+        .channel-list { max-height: 400px; overflow-y: auto; }
+        .video-js { width: 100%; height: 500px; }
+        .btn-custom { margin-top: 10px; }
     </style>
     <script>
+        let player;
+
         function fetchChannels(type, data) {
             fetch('/fetch_channels', {
                 method: 'POST',
@@ -62,17 +66,20 @@ HTML_CONTENT = """
         }
 
         function playChannel(url) {
-            let video = document.getElementById('video');
             let videoContainer = document.getElementById('video-container');
             videoContainer.style.display = 'block';
 
-            if (Hls.isSupported()) {
-                let hls = new Hls();
-                hls.loadSource(url);
-                hls.attachMedia(video);
-            } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-                video.src = url;
+            if (!player) {
+                player = videojs('video-player', {
+                    controls: true,
+                    autoplay: true,
+                    fluid: true,
+                });
+                player.hlsQualitySelector();
             }
+
+            player.src({ src: url, type: 'application/x-mpegURL' });
+            player.play();
         }
     </script>
 </head>
@@ -83,13 +90,13 @@ HTML_CONTENT = """
         <div class="mb-3">
             <label class="form-label">Upload M3U File:</label>
             <input type="file" id="m3u-file" class="form-control">
-            <button class="btn btn-primary mt-2" onclick="uploadM3U()">Upload & Load</button>
+            <button class="btn btn-primary btn-custom" onclick="uploadM3U()">Upload & Load</button>
         </div>
 
         <div class="mb-3">
             <label class="form-label">Fetch from M3U URL:</label>
             <input type="text" id="m3u-url" class="form-control" placeholder="Enter M3U URL">
-            <button class="btn btn-success mt-2" onclick="fetchFromURL()">Fetch & Load</button>
+            <button class="btn btn-success btn-custom" onclick="fetchFromURL()">Fetch & Load</button>
         </div>
 
         <h3>Channels</h3>
@@ -97,7 +104,7 @@ HTML_CONTENT = """
 
         <div id="video-container">
             <h3>Now Playing</h3>
-            <video id="video" controls width="100%" height="400"></video>
+            <video id="video-player" class="video-js vjs-default-skin" controls></video>
         </div>
     </div>
 </body>
