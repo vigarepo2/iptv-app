@@ -1,6 +1,9 @@
-from flask import Flask, request, jsonify, send_from_directory
+from flask import Flask, request, jsonify
 
 app = Flask(__name__)
+
+# Store uploaded M3U files in memory
+uploaded_m3u_files = {}
 
 HTML_CONTENT = """
 <!DOCTYPE html>
@@ -9,6 +12,7 @@ HTML_CONTENT = """
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IPTV Player</title>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <script>
         function loadStream(type, data) {
             fetch('/play', {
@@ -42,18 +46,23 @@ HTML_CONTENT = """
             let fileInput = document.getElementById("m3u-file");
             let file = fileInput.files[0];
 
-            let formData = new FormData();
-            formData.append("file", file);
-
-            fetch('/upload', { method: 'POST', body: formData })
-            .then(response => response.json())
-            .then(data => {
-                if (data.filename) {
-                    loadStream("m3u", { filename: data.filename });
-                } else {
-                    alert("File upload failed!");
-                }
-            });
+            let reader = new FileReader();
+            reader.onload = function(event) {
+                fetch('/upload', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ filename: file.name, content: event.target.result })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.filename) {
+                        loadStream("m3u", { filename: data.filename });
+                    } else {
+                        alert("File upload failed!");
+                    }
+                });
+            };
+            reader.readAsText(file);
         }
 
         function loadXtream() {
@@ -69,7 +78,6 @@ HTML_CONTENT = """
             loadStream("stalker", { portal: portal, mac: mac });
         }
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 </head>
 <body>
     <h1>IPTV Player</h1>
@@ -98,10 +106,6 @@ HTML_CONTENT = """
 </html>
 """
 
-import os
-UPLOAD_FOLDER = "uploads"
-os.makedirs(UPLOAD_FOLDER, exist_ok=True)
-
 @app.route('/')
 def index():
     return HTML_CONTENT
@@ -114,12 +118,12 @@ def play():
 
     if source_type == "direct":
         stream_url = data.get('url')
-    
+
     elif source_type == "m3u":
-        file_path = os.path.join(UPLOAD_FOLDER, data.get('filename'))
-        if os.path.exists(file_path):
-            stream_url = f"/uploads/{data.get('filename')}"
-    
+        filename = data.get('filename')
+        if filename in uploaded_m3u_files:
+            stream_url = uploaded_m3u_files[filename]
+
     elif source_type == "xtream":
         xtream_url = data.get('server')
         username = data.get('username')
@@ -138,21 +142,15 @@ def play():
 
 @app.route('/upload', methods=['POST'])
 def upload_file():
-    if 'file' not in request.files:
-        return jsonify({'error': 'No file uploaded'}), 400
+    data = request.json
+    filename = data.get('filename')
+    content = data.get('content')
 
-    file = request.files['file']
-    if file.filename == '':
-        return jsonify({'error': 'No selected file'}), 400
+    if not filename or not content:
+        return jsonify({'error': 'Invalid file data'}), 400
 
-    file_path = os.path.join(UPLOAD_FOLDER, file.filename)
-    file.save(file_path)
-
-    return jsonify({'filename': file.filename})
-
-@app.route('/uploads/<filename>')
-def uploaded_file(filename):
-    return send_from_directory(UPLOAD_FOLDER, filename)
+    uploaded_m3u_files[filename] = content
+    return jsonify({'filename': filename})
 
 if __name__ == '__main__':
     app.run(debug=True)
