@@ -5,8 +5,8 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-# Directory to store downloaded playlists
-DOWNLOAD_DIR = "downloads"
+# Use the temporary directory for saving files
+DOWNLOAD_DIR = "/tmp/downloads"
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
 
 def fetch_m3u_playlist(url):
