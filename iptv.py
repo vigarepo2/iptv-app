@@ -15,54 +15,145 @@ HTML_CONTENT = """
     <script src="https://cdn.jsdelivr.net/npm/video.js@7.20.3/dist/video.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/videojs-hls-quality-selector@1.1.3/dist/videojs-hls-quality-selector.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/video.js@7.20.3/dist/video-js.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { background-color: #121212; color: white; font-family: Arial, sans-serif; }
-        .container { max-width: 900px; margin-top: 20px; }
-        #video-container { display: none; margin-top: 20px; }
-        .channel-list { max-height: 400px; overflow-y: auto; }
-        .video-js { width: 100%; height: 500px; }
-        .btn-custom { margin-top: 10px; }
-        .folder { cursor: pointer; color: #0d6efd; }
-        .vjs-default-skin .vjs-control-bar { background-color: rgba(0, 0, 0, 0.7); }
-        .vjs-default-skin .vjs-big-play-button { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+        body {
+            background-color: #1e1e2f;
+            color: #ffffff;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        .sidebar {
+            height: 100vh;
+            width: 250px;
+            background-color: #2a2b3d;
+            position: fixed;
+            top: 0;
+            left: 0;
+            overflow-y: auto;
+            transition: width 0.3s;
+        }
+        .sidebar.collapsed {
+            width: 60px;
+        }
+        .sidebar h3 {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 1.2rem;
+        }
+        .sidebar button {
+            background: none;
+            border: none;
+            color: #ffffff;
+            padding: 10px 15px;
+            cursor: pointer;
+            width: 100%;
+            text-align: left;
+            transition: background-color 0.3s;
+        }
+        .sidebar button:hover {
+            background-color: #3c3d53;
+        }
+        .main-content {
+            margin-left: 250px;
+            transition: margin-left 0.3s;
+        }
+        .main-content.collapsed {
+            margin-left: 60px;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 100px);
+        }
+        .video-js {
+            width: 90%;
+            height: 80%;
+            background-color: #000000;
+        }
+        .controls {
+            padding: 20px;
+        }
+        .controls input, .controls button {
+            margin: 5px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        .controls input {
+            background-color: #ffffff;
+            color: #000000;
+        }
+        .controls button {
+            background-color: #4caf50;
+            color: #ffffff;
+        }
+        .controls button:hover {
+            background-color: #45a049;
+        }
+        .toggle-sidebar {
+            position: absolute;
+            top: 10px;
+            left: 260px;
+            cursor: pointer;
+            z-index: 1000;
+        }
+        .toggle-sidebar.collapsed {
+            left: 70px;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1 class="text-center">IPTV Player</h1>
-        <div class="mb-3">
-            <label class="form-label">Upload M3U File:</label>
-            <input type="file" id="m3u-file" class="form-control">
-            <button class="btn btn-primary btn-custom" onclick="uploadM3U()">Upload & Load</button>
-        </div>
-        <div class="mb-3">
-            <label class="form-label">Fetch from M3U URL:</label>
+    <div class="sidebar" id="sidebar">
+        <h3>Channels</h3>
+        <div id="channel-list" class="list-group"></div>
+    </div>
+    <div class="main-content" id="main-content">
+        <div class="controls p-3">
+            <button onclick="toggleSidebar()" class="btn btn-secondary toggle-sidebar" id="toggle-sidebar">☰</button>
+            <input type="file" id="m3u-file" class="form-control" placeholder="Upload M3U File">
+            <button class="btn btn-primary" onclick="uploadM3U()">Upload & Load</button>
             <input type="text" id="m3u-url" class="form-control" placeholder="Enter M3U URL">
-            <button class="btn btn-success btn-custom" onclick="fetchFromURL()">Fetch & Load</button>
-        </div>
-        <div class="mb-3">
-            <h3>Xtream Codes Login</h3>
+            <button class="btn btn-success" onclick="fetchFromURL()">Fetch & Load</button>
+            <h4>Xtream Codes Login</h4>
             <input type="text" id="xtream-username" class="form-control" placeholder="Username">
             <input type="password" id="xtream-password" class="form-control" placeholder="Password">
             <input type="text" id="xtream-server" class="form-control" placeholder="Server URL">
-            <button class="btn btn-warning btn-custom" onclick="loginXtream()">Login</button>
-        </div>
-        <div class="mb-3">
-            <h3>Stalker Portal Login</h3>
+            <button class="btn btn-warning" onclick="loginXtream()">Login</button>
+            <h4>Stalker Portal Login</h4>
             <input type="text" id="stalker-mac" class="form-control" placeholder="MAC Address">
             <input type="text" id="stalker-server" class="form-control" placeholder="Server URL">
-            <button class="btn btn-info btn-custom" onclick="loginStalker()">Login</button>
+            <button class="btn btn-info" onclick="loginStalker()">Login</button>
         </div>
-        <h3>Channels</h3>
-        <div id="channel-list" class="list-group channel-list"></div>
-        <div id="video-container">
-            <h3>Now Playing</h3>
+        <div class="video-container">
             <video id="video-player" class="video-js vjs-default-skin" controls preload="auto" data-setup='{}'></video>
         </div>
     </div>
     <script>
         let player;
+        let isSidebarCollapsed = false;
+
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const mainContent = document.getElementById('main-content');
+            const toggleButton = document.getElementById('toggle-sidebar');
+            if (isSidebarCollapsed) {
+                sidebar.classList.remove('collapsed');
+                mainContent.classList.remove('collapsed');
+                toggleButton.classList.remove('collapsed');
+                isSidebarCollapsed = false;
+            } else {
+                sidebar.classList.add('collapsed');
+                mainContent.classList.add('collapsed');
+                toggleButton.classList.add('collapsed');
+                isSidebarCollapsed = true;
+            }
+        }
+
         function fetchChannels(type, data) {
             fetch('/fetch_channels', {
                 method: 'POST',
@@ -76,21 +167,12 @@ HTML_CONTENT = """
                 if (data.channels && data.channels.length > 0) {
                     data.channels.forEach(channel => {
                         let btn = document.createElement("button");
-                        btn.className = "list-group-item list-group-item-action";
                         btn.textContent = channel.name;
                         btn.onclick = function() { playChannel(channel.url); };
                         channelList.appendChild(btn);
                     });
-                } else if (data.folders && data.folders.length > 0) {
-                    data.folders.forEach(folder => {
-                        let div = document.createElement("div");
-                        div.className = "folder";
-                        div.textContent = folder.name;
-                        div.onclick = function() { fetchChannels('folder', { path: folder.path }); };
-                        channelList.appendChild(div);
-                    });
                 } else {
-                    channelList.innerHTML = "<p class='text-danger'>No channels or folders found!</p>";
+                    channelList.innerHTML = "<p class='text-danger'>No channels found!</p>";
                 }
             });
         }
@@ -112,10 +194,6 @@ HTML_CONTENT = """
         }
 
         function playChannel(url) {
-            let videoContainer = document.getElementById('video-container');
-            videoContainer.style.display = 'block';
-
-            // Destroy existing player instance if it exists
             if (player) {
                 player.dispose();
             }
@@ -134,7 +212,6 @@ HTML_CONTENT = """
 
             player.hlsQualitySelector();
 
-            // Check if the browser supports HLS natively
             if (videojs.Hls.isSupported()) {
                 const hls = new Hls();
                 hls.loadSource(url);
@@ -144,7 +221,6 @@ HTML_CONTENT = """
                     alert("Error loading stream. Please check the URL.");
                 });
             } else if (videoElement.canPlayType('application/vnd.apple.mpegurl')) {
-                // Native HLS support (e.g., Safari)
                 videoElement.src = url;
                 videoElement.addEventListener('error', function() {
                     console.error("Native HLS Error:", videoElement.error);
