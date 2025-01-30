@@ -100,7 +100,6 @@ HTML_CONTENT = """
             let file = fileInput.files[0];
             let reader = new FileReader();
             reader.onload = function(event) {
-                // Save to localStorage
                 localStorage.setItem(file.name, event.target.result);
                 fetchChannels("m3u", { filename: file.name, content: event.target.result });
             };
@@ -115,15 +114,46 @@ HTML_CONTENT = """
         function playChannel(url) {
             let videoContainer = document.getElementById('video-container');
             videoContainer.style.display = 'block';
-            if (!player) {
-                player = videojs('video-player', {
-                    controls: true,
-                    autoplay: true,
-                    fluid: true,
-                });
-                player.hlsQualitySelector();
+
+            // Destroy existing player instance if it exists
+            if (player) {
+                player.dispose();
             }
-            player.src({ src: url, type: 'application/x-mpegURL' });
+
+            const videoElement = document.getElementById('video-player');
+            player = videojs(videoElement, {
+                controls: true,
+                autoplay: true,
+                fluid: true,
+                html5: {
+                    hls: {
+                        overrideNative: !videojs.browser.IS_SAFARI
+                    }
+                }
+            });
+
+            player.hlsQualitySelector();
+
+            // Check if the browser supports HLS natively
+            if (videojs.Hls.isSupported()) {
+                const hls = new Hls();
+                hls.loadSource(url);
+                hls.attachMedia(videoElement);
+                hls.on(Hls.Events.ERROR, function(event, data) {
+                    console.error("HLS Error:", data);
+                    alert("Error loading stream. Please check the URL.");
+                });
+            } else if (videoElement.canPlayType('application/vnd.apple.mpegurl')) {
+                // Native HLS support (e.g., Safari)
+                videoElement.src = url;
+                videoElement.addEventListener('error', function() {
+                    console.error("Native HLS Error:", videoElement.error);
+                    alert("Error loading stream. Please check the URL.");
+                });
+            } else {
+                alert("Your browser does not support HLS streaming.");
+            }
+
             player.play();
         }
 
