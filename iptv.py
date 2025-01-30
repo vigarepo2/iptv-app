@@ -5,7 +5,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-# Use the temporary directory for saving files
+# Temporary directory for saving files
 DOWNLOAD_DIR = "/tmp/downloads"
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
 
@@ -17,6 +17,17 @@ def fetch_m3u_playlist(url):
         return response.text
     except requests.RequestException as e:
         return f"Error fetching playlist: {e}"
+
+def generate_xtream_playlist(server_url, username, password, mac=None):
+    """Generate an Xtream Codes or Stalker Portal playlist URL."""
+    if not server_url or not username or not password:
+        return "Error: Missing server URL, username, or password."
+    
+    # Construct the Xtream Codes playlist URL
+    if mac:
+        return f"{server_url}/get.php?username={username}&password={password}&type=m3u_plus&output=ts&mac={mac}"
+    else:
+        return f"{server_url}/get.php?username={username}&password={password}&type=m3u_plus&output=ts"
 
 def save_playlist(playlist_content, filename):
     """Save the playlist content to a file."""
@@ -61,7 +72,7 @@ HTML_TEMPLATE = """
             display: flex;
             flex-direction: column;
         }
-        input[type="text"] {
+        input[type="text"], input[type="password"] {
             padding: 15px;
             margin-bottom: 15px;
             border: none;
@@ -109,7 +120,10 @@ HTML_TEMPLATE = """
             <p class="success">{{ success }}</p>
         {% endif %}
         <form method="POST">
-            <input type="text" name="playlist_url" placeholder="Enter M3U Playlist URL (Xtream, Stalker, MAC)" required>
+            <input type="text" name="server_url" placeholder="Enter Server URL (e.g., http://example.com)" required>
+            <input type="text" name="username" placeholder="Enter Username" required>
+            <input type="password" name="password" placeholder="Enter Password" required>
+            <input type="text" name="mac" placeholder="Enter MAC Address (Optional)">
             <button type="submit">Download Playlist</button>
         </form>
     </div>
@@ -123,9 +137,15 @@ def index():
     error = None
     success = None
     if request.method == "POST":
-        playlist_url = request.form.get("playlist_url")
-        if not playlist_url:
-            error = "Please provide a valid URL."
+        server_url = request.form.get("server_url")
+        username = request.form.get("username")
+        password = request.form.get("password")
+        mac = request.form.get("mac")
+
+        # Generate the playlist URL
+        playlist_url = generate_xtream_playlist(server_url, username, password, mac)
+        if playlist_url.startswith("Error"):
+            error = playlist_url
         else:
             # Fetch the playlist
             playlist_content = fetch_m3u_playlist(playlist_url)
