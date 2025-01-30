@@ -35,52 +35,67 @@ HTML_TEMPLATE = """
     <title>IPTV Playlist Downloader</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
+            background: linear-gradient(to bottom, #4CAF50, #81C784);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
         }
         .container {
             max-width: 600px;
-            margin: 50px auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
         }
         h1 {
-            text-align: center;
-            color: #4CAF50;
+            font-size: 2rem;
+            margin-bottom: 20px;
         }
         form {
             display: flex;
             flex-direction: column;
         }
         input[type="text"] {
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
+            padding: 15px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
         }
         button {
-            padding: 10px;
-            background-color: #4CAF50;
-            color: white;
+            padding: 15px;
+            background-color: #FFC107;
+            color: #000;
             border: none;
-            border-radius: 4px;
+            border-radius: 5px;
+            font-size: 1rem;
             cursor: pointer;
+            transition: background-color 0.3s ease;
         }
         button:hover {
-            background-color: #45a049;
+            background-color: #FFA000;
         }
         .error {
             color: red;
-            text-align: center;
+            margin-top: 10px;
         }
         .success {
-            color: green;
-            text-align: center;
+            color: #4CAF50;
+            margin-top: 10px;
+        }
+        .download-link {
+            color: #FFC107;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .download-link:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -94,7 +109,7 @@ HTML_TEMPLATE = """
             <p class="success">{{ success }}</p>
         {% endif %}
         <form method="POST">
-            <input type="text" name="playlist_url" placeholder="Enter M3U Playlist URL" required>
+            <input type="text" name="playlist_url" placeholder="Enter M3U Playlist URL (Xtream, Stalker, MAC)" required>
             <button type="submit">Download Playlist</button>
         </form>
     </div>
@@ -124,8 +139,9 @@ def index():
                 # Save the playlist
                 save_playlist(playlist_content, filename)
                 
-                # Set success message
-                success = f"Playlist downloaded successfully! <a href='/download/{filename}'>Click here to download</a>."
+                # Set success message with a working download link
+                download_link = url_for("download", filename=filename, _external=True)
+                success = f"Playlist downloaded successfully! <a href='{download_link}' class='download-link'>Click here to download</a>."
     
     return render_template_string(HTML_TEMPLATE, error=error, success=success)
 
