@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify, render_template_string
 import os
+import requests
 
 app = Flask(__name__)
 
@@ -17,18 +18,51 @@ HTML_CONTENT = """
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <style>
         body { background-color: #121212; color: white; font-family: Arial, sans-serif; }
-        .container { max-width: 1200px; margin: 20px auto; }
-        #video-container { margin-top: 20px; }
+        .container { max-width: 900px; margin-top: 20px; }
+        #video-container { display: none; margin-top: 20px; }
         .channel-list { max-height: 400px; overflow-y: auto; }
-        .video-js { width: 100%; height: 500px; background: #000; }
+        .video-js { width: 100%; height: 500px; }
         .btn-custom { margin-top: 10px; }
-        .controls { margin-top: 10px; display: flex; gap: 10px; }
         .folder { cursor: pointer; color: #0d6efd; }
-        .video-js .vjs-control-bar { background: rgba(0, 0, 0, 0.7); }
+        .vjs-default-skin .vjs-control-bar { background-color: rgba(0, 0, 0, 0.7); }
+        .vjs-default-skin .vjs-big-play-button { top: 50%; left: 50%; transform: translate(-50%, -50%); }
     </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">IPTV Player</h1>
+        <div class="mb-3">
+            <label class="form-label">Upload M3U File:</label>
+            <input type="file" id="m3u-file" class="form-control">
+            <button class="btn btn-primary btn-custom" onclick="uploadM3U()">Upload & Load</button>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Fetch from M3U URL:</label>
+            <input type="text" id="m3u-url" class="form-control" placeholder="Enter M3U URL">
+            <button class="btn btn-success btn-custom" onclick="fetchFromURL()">Fetch & Load</button>
+        </div>
+        <div class="mb-3">
+            <h3>Xtream Codes Login</h3>
+            <input type="text" id="xtream-username" class="form-control" placeholder="Username">
+            <input type="password" id="xtream-password" class="form-control" placeholder="Password">
+            <input type="text" id="xtream-server" class="form-control" placeholder="Server URL">
+            <button class="btn btn-warning btn-custom" onclick="loginXtream()">Login</button>
+        </div>
+        <div class="mb-3">
+            <h3>Stalker Portal Login</h3>
+            <input type="text" id="stalker-mac" class="form-control" placeholder="MAC Address">
+            <input type="text" id="stalker-server" class="form-control" placeholder="Server URL">
+            <button class="btn btn-info btn-custom" onclick="loginStalker()">Login</button>
+        </div>
+        <h3>Channels</h3>
+        <div id="channel-list" class="list-group channel-list"></div>
+        <div id="video-container">
+            <h3>Now Playing</h3>
+            <video id="video-player" class="video-js vjs-default-skin" controls preload="auto" data-setup='{}'></video>
+        </div>
+    </div>
     <script>
         let player;
-
         function fetchChannels(type, data) {
             fetch('/fetch_channels', {
                 method: 'POST',
@@ -64,10 +98,10 @@ HTML_CONTENT = """
         function uploadM3U() {
             let fileInput = document.getElementById("m3u-file");
             let file = fileInput.files[0];
-
             let reader = new FileReader();
             reader.onload = function(event) {
-                localStorage.setItem('m3uFile', event.target.result);
+                // Save to localStorage
+                localStorage.setItem(file.name, event.target.result);
                 fetchChannels("m3u", { filename: file.name, content: event.target.result });
             };
             reader.readAsText(file);
@@ -81,68 +115,31 @@ HTML_CONTENT = """
         function playChannel(url) {
             let videoContainer = document.getElementById('video-container');
             videoContainer.style.display = 'block';
-
-            if (player) {
-                player.dispose();
+            if (!player) {
+                player = videojs('video-player', {
+                    controls: true,
+                    autoplay: true,
+                    fluid: true,
+                });
+                player.hlsQualitySelector();
             }
-
-            player = videojs('video-player', {
-                controls: true,
-                autoplay: true,
-                fluid: true,
-                html5: {
-                    hls: {
-                        enableLowInitialPlaylist: true,
-                        smoothQualityChange: true,
-                        overrideNative: true
-                    }
-                }
-            });
-
-            player.hlsQualitySelector({
-                displayCurrentQuality: true,
-            });
-
             player.src({ src: url, type: 'application/x-mpegURL' });
             player.play();
         }
 
-        function loadLocalStorage() {
-            let m3uContent = localStorage.getItem('m3uFile');
-            if (m3uContent) {
-                fetchChannels("m3u", { content: m3uContent });
-            }
+        function loginXtream() {
+            let username = document.getElementById("xtream-username").value;
+            let password = document.getElementById("xtream-password").value;
+            let server = document.getElementById("xtream-server").value;
+            fetchChannels("xtream", { username: username, password: password, server: server });
         }
 
-        window.onload = loadLocalStorage;
+        function loginStalker() {
+            let mac = document.getElementById("stalker-mac").value;
+            let server = document.getElementById("stalker-server").value;
+            fetchChannels("stalker", { mac: mac, server: server });
+        }
     </script>
-</head>
-<body>
-    <div class="container">
-        <h1 class="text-center">IPTV Player</h1>
-
-        <div class="mb-3">
-            <label class="form-label">Upload M3U File:</label>
-            <input type="file" id="m3u-file" class="form-control">
-            <button class="btn btn-primary btn-custom" onclick="uploadM3U()">Upload & Load</button>
-        </div>
-
-        <div class="mb-3">
-            <label class="form-label">Fetch from M3U URL:</label>
-            <input type="text" id="m3u-url" class="form-control" placeholder="Enter M3U URL">
-            <button class="btn btn-success btn-custom" onclick="fetchFromURL()">Fetch & Load</button>
-        </div>
-
-        <h3>Channels</h3>
-        <div id="channel-list" class="list-group channel-list"></div>
-
-        <div id="video-container">
-            <h3>Now Playing</h3>
-            <video id="video-player" class="video-js vjs-default-skin" controls>
-                <track kind="captions" src="" label="Subtitles" default>
-            </video>
-        </div>
-    </div>
 </body>
 </html>
 """
@@ -162,7 +159,7 @@ def fetch_channels():
         content = data.get('content')
         if content:
             channels = parse_m3u(content)
-    
+
     elif source_type == "url":
         url = data.get('url')
         if url:
@@ -170,8 +167,21 @@ def fetch_channels():
                 response = requests.get(url)
                 if response.status_code == 200:
                     channels = parse_m3u(response.text)
-            except:
-                return jsonify({'error': 'Failed to fetch M3U URL'}), 400
+            except Exception as e:
+                return jsonify({'error': f'Failed to fetch M3U URL: {str(e)}'}), 400
+
+    elif source_type == "xtream":
+        username = data.get('username')
+        password = data.get('password')
+        server = data.get('server')
+        if username and password and server:
+            channels = fetch_xtream_channels(username, password, server)
+
+    elif source_type == "stalker":
+        mac = data.get('mac')
+        server = data.get('server')
+        if mac and server:
+            channels = fetch_stalker_channels(mac, server)
 
     elif source_type == "folder":
         path = data.get('path')
@@ -184,7 +194,6 @@ def parse_m3u(content):
     lines = content.splitlines()
     channels = []
     current_name = None
-
     for line in lines:
         line = line.strip()
         if line.startswith("#EXTINF:"):
@@ -193,8 +202,29 @@ def parse_m3u(content):
             if current_name:
                 channels.append({"name": current_name, "url": line})
                 current_name = None
-
     return channels
+
+def fetch_xtream_channels(username, password, server):
+    try:
+        url = f"{server}/player_api.php?username={username}&password={password}&action=get_live_streams"
+        response = requests.get(url)
+        if response.status_code == 200:
+            data = response.json()
+            return [{"name": stream['name'], "url": stream['stream_url']} for stream in data]
+    except Exception as e:
+        print(f"Error fetching Xtream channels: {e}")
+        return []
+
+def fetch_stalker_channels(mac, server):
+    try:
+        url = f"{server}/server/load.php?type=stb&action=get_profile&mac={mac}"
+        response = requests.get(url)
+        if response.status_code == 200:
+            data = response.json()
+            return [{"name": channel['name'], "url": channel['url']} for channel in data['channels']]
+    except Exception as e:
+        print(f"Error fetching Stalker channels: {e}")
+        return []
 
 def fetch_folder_content(path):
     channels = []
