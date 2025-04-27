@@ -1,121 +1,36 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="708" tvg-name="ABP News" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",ABP News
 http://port.denver1769.fun/oplx5.php?id=244798
+
 #EXTINF:-1 tvg-id="709" tvg-name="DD News" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",DD News
 http://port.denver1769.fun/oplx5.php?id=244799
+
 #EXTINF:-1 tvg-id="710" tvg-name="News State up uk" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",News State up uk
 http://port.denver1769.fun/oplx5.php?id=244800
+
 #EXTINF:-1 tvg-id="711" tvg-name="Zee Madhya Pradesh Chhattisgarh News" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",Zee Madhya Pradesh Chhattisgarh News
 http://port.denver1769.fun/oplx5.php?id=244801
-#EXTINF:-1 tvg-id="712" tvg-name="Zee Rajasthan News" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",Zee Rajasthan News
-http://port.denver1769.fun/oplx5.php?id=244802
+
 #EXTINF:-1 tvg-id="713" tvg-name="Zee News" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",Zee News
 http://port.denver1769.fun/oplx5.php?id=244803
-#EXTINF:-1 tvg-id="714" tvg-name="Surya Samachar News" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",Surya Samachar News
-http://port.denver1769.fun/oplx5.php?id=244804
+
 #EXTINF:-1 tvg-id="715" tvg-name="News 24" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",News 24
 http://port.denver1769.fun/oplx5.php?id=244805
-#EXTINF:-1 tvg-id="716" tvg-name="Rajasthan News" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",Rajasthan News
-http://port.denver1769.fun/oplx5.php?id=244806
-#EXTINF:-1 tvg-id="717" tvg-name="Good News Today" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",Good News Today
-http://port.denver1769.fun/oplx5.php?id=244807
+
 #EXTINF:-1 tvg-id="718" tvg-name="HINDI_Sudarshan News" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",HINDI_Sudarshan News
 http://port.denver1769.fun/oplx5.php?id=244808
-#EXTINF:-1 tvg-id="719" tvg-name="India Today News" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",India Today News
-http://port.denver1769.fun/oplx5.php?id=244809
-#EXTINF:-1 tvg-id="720" tvg-name="Sadhna Plus News" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",Sadhna Plus News
-http://port.denver1769.fun/oplx5.php?id=244812
-#EXTINF:-1 tvg-id="721" tvg-name="Prag News" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",Prag News
-http://port.denver1769.fun/oplx5.php?id=244814
+
 #EXTINF:-1 tvg-id="722" tvg-name="India News" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/India-News-1.png" group-title="NEWS",India News
 http://port.denver1769.fun/oplx5.php?id=244815
-#EXTINF:-1 tvg-id="723" tvg-name="News X" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/NewsX.png" group-title="NEWS",News X
-http://port.denver1769.fun/oplx5.php?id=244816
+
 #EXTINF:-1 tvg-id="724" tvg-name="India News Punjabi" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/India-News-Punjab.png" group-title="NEWS",India News Punjabi
 http://port.denver1769.fun/oplx5.php?id=244817
-#EXTINF:-1 tvg-id="725" tvg-name="India News UP" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",India News UP
-http://port.denver1769.fun/oplx5.php?id=244818
-#EXTINF:-1 tvg-id="726" tvg-name="India News Rajasthan" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",India News Rajasthan
-http://port.denver1769.fun/oplx5.php?id=244819
-#EXTINF:-1 tvg-id="727" tvg-name="India News MP" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Zee-Rajasthan-News.png" group-title="NEWS",India News MP
-http://port.denver1769.fun/oplx5.php?id=244820
-#EXTINF:-1 tvg-id="728" tvg-name="India News Haryana" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",India News Haryana
-http://port.denver1769.fun/oplx5.php?id=244821
-#EXTINF:-1 tvg-id="729" tvg-name="North East Live" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",North East Live
-http://port.denver1769.fun/oplx5.php?id=244822
-#EXTINF:-1 tvg-id="730" tvg-name="Gulistan News" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Gulistan-News.png" group-title="NEWS",Gulistan News
-http://port.denver1769.fun/oplx5.php?id=244825
-#EXTINF:-1 tvg-id="731" tvg-name="News Live" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/News-State-MP.png" group-title="NEWS",News Live
-http://port.denver1769.fun/oplx5.php?id=244826
-#EXTINF:-1 tvg-id="732" tvg-name="News 18 Assam" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/ND24.png" group-title="NEWS",News 18 Assam
-http://port.denver1769.fun/oplx5.php?id=244827
-#EXTINF:-1 tvg-id="733" tvg-name="AB Star News" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",AB Star News
-http://port.denver1769.fun/oplx5.php?id=244829
-#EXTINF:-1 tvg-id="734" tvg-name="C News Bharat" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/C-News-Bharat.png" group-title="NEWS",C News Bharat
-http://port.denver1769.fun/oplx5.php?id=244831
-#EXTINF:-1 tvg-id="735" tvg-name="HNN 24x7" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",HNN 24x7
-http://port.denver1769.fun/oplx5.php?id=244832
-#EXTINF:-1 tvg-id="736" tvg-name="ANN News" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/ANN-News.png" group-title="NEWS",ANN News
-http://port.denver1769.fun/oplx5.php?id=244834
-#EXTINF:-1 tvg-id="737" tvg-name="Pratham Khabar 24x7" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",Pratham Khabar 24x7
-http://port.denver1769.fun/oplx5.php?id=244835
-#EXTINF:-1 tvg-id="738" tvg-name="STV Haryana News" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",STV Haryana News
-http://port.denver1769.fun/oplx5.php?id=244839
-#EXTINF:-1 tvg-id="739" tvg-name="Sadhna News Plus" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",Sadhna News Plus
-http://port.denver1769.fun/oplx5.php?id=244842
-#EXTINF:-1 tvg-id="740" tvg-name="Swadesh News" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",Swadesh News
-http://port.denver1769.fun/oplx5.php?id=244844
-#EXTINF:-1 tvg-id="741" tvg-name="News India 24x7" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/NEWS-INDIA-24x7-1.png" group-title="NEWS",News India 24x7
-http://port.denver1769.fun/oplx5.php?id=244846
-#EXTINF:-1 tvg-id="742" tvg-name="INH 24x7" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/INH-247.png" group-title="NEWS",INH 24x7
-http://port.denver1769.fun/oplx5.php?id=244847
-#EXTINF:-1 tvg-id="743" tvg-name="A1 TV Rajasthan" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/A1-TV.png" group-title="NEWS",A1 TV Rajasthan
-http://port.denver1769.fun/oplx5.php?id=244848
-#EXTINF:-1 tvg-id="744" tvg-name="Bansal News" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Bansal-News.png" group-title="NEWS",Bansal News
-http://port.denver1769.fun/oplx5.php?id=244849
-#EXTINF:-1 tvg-id="745" tvg-name="First India News" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",First India News
-http://port.denver1769.fun/oplx5.php?id=244850
-#EXTINF:-1 tvg-id="746" tvg-name="News 11" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",News 11
-http://port.denver1769.fun/oplx5.php?id=244851
-#EXTINF:-1 tvg-id="747" tvg-name="APN News" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",APN News
-http://port.denver1769.fun/oplx5.php?id=244852
-#EXTINF:-1 tvg-id="748" tvg-name="News 1 India" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/News-1.png" group-title="NEWS",News 1 India
-http://port.denver1769.fun/oplx5.php?id=244853
-#EXTINF:-1 tvg-id="749" tvg-name="K News" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",K News
-http://port.denver1769.fun/oplx5.php?id=244854
-#EXTINF:-1 tvg-id="750" tvg-name="JK 24x7 News" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",JK 24x7 News
-http://port.denver1769.fun/oplx5.php?id=244855
-#EXTINF:-1 tvg-id="751" tvg-name="Kashish News" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Kashish-News.png" group-title="NEWS",Kashish News
-http://port.denver1769.fun/oplx5.php?id=244856
-#EXTINF:-1 tvg-id="752" tvg-name="News 18 Urdu" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",News 18 Urdu
-http://port.denver1769.fun/oplx5.php?id=244861
-#EXTINF:-1 tvg-id="753" tvg-name="CNN News 18 FHD" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/CNN-News18.png" group-title="NEWS",CNN News 18 FHD
-http://port.denver1769.fun/oplx5.php?id=244862
-#EXTINF:-1 tvg-id="754" tvg-name="News18 MP Chhattisgarh" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",News18 MP Chhattisgarh
-http://port.denver1769.fun/oplx5.php?id=244863
-#EXTINF:-1 tvg-id="755" tvg-name="News18 UP Uttarakhand" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/News-Nation.png" group-title="NEWS",News18 UP Uttarakhand
-http://port.denver1769.fun/oplx5.php?id=244864
-#EXTINF:-1 tvg-id="756" tvg-name="News18 Bihar Jharkhand" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/News18-Bihar-Jharkhand.png" group-title="NEWS",News18 Bihar Jharkhand
-http://port.denver1769.fun/oplx5.php?id=244865
-#EXTINF:-1 tvg-id="757" tvg-name="News18 Rajasthan FHD" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/News18-Rajasthan.png" group-title="NEWS",News18 Rajasthan FHD
-http://port.denver1769.fun/oplx5.php?id=244866
-#EXTINF:-1 tvg-id="758" tvg-name="News18 Lokmat" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",News18 Lokmat
-http://port.denver1769.fun/oplx5.php?id=244867
-#EXTINF:-1 tvg-id="759" tvg-name="News18 Odia FHD" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",News18 Odia FHD
-http://port.denver1769.fun/oplx5.php?id=244868
-#EXTINF:-1 tvg-id="760" tvg-name="Aaj Tak HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Aaj_tak_logo.png/200px-Aaj_tak_logo.png" group-title="NEWS",Aaj Tak HD
-http://port.denver1769.fun/oplx5.php?id=244915
-#EXTINF:-1 tvg-id="761" tvg-name="NDTV Profit" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/NDTV-Profit-Prime.png" group-title="NEWS",NDTV Profit
-http://port.denver1769.fun/oplx5.php?id=244916
-#EXTINF:-1 tvg-id="762" tvg-name="NDTV INDIA" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",NDTV INDIA
-http://port.denver1769.fun/oplx5.php?id=244917
-#EXTINF:-1 tvg-id="763" tvg-name="NDTV Good Times" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",NDTV Good Times
-http://port.denver1769.fun/oplx5.php?id=244918
+
 #EXTINF:-1 tvg-id="764" tvg-name="Republic Bharat" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/REPUBLIC-Bharat.png" group-title="NEWS",Republic Bharat
 http://port.denver1769.fun/oplx5.php?id=243733
+
 #EXTINF:-1 tvg-id="765" tvg-name="Zee Business" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/Zee-Business.png" group-title="NEWS",Zee Business
 http://port.denver1769.fun/oplx5.php?id=341135
+
 #EXTINF:-1 tvg-id="766" tvg-name="Time Now Navbharat" tvg-logo="https://www.naftomar.gr/wp-content/uploads/2023/11/Image_not_available.png" group-title="NEWS",Time Now Navbharat
 http://port.denver1769.fun/oplx5.php?id=345354
-#EXTINF:-1 tvg-id="767" tvg-name="CNBC-TV18" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/CNBC-TV18.png" group-title="NEWS",CNBC-TV18
-http://port.denver1769.fun/oplx5.php?id=355645
