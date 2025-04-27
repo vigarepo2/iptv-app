@@ -1,3 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="ytv.IWwk6YfzqEQ" tvg-name="Deepseek R2 and V4" tvg-logo="https://i.ytimg.com/vi/IWwk6YfzqEQ/hqdefault.jpg" group-title="YouTube",Deepseek R2 and V4
-https://ytdl.taihua.online/video/IWwk6YfzqEQ
+#EXTINF:-1,Deepseek R2 and V4
+pipe://streamlink https://www.youtube.com/watch?v=IWwk6YfzqEQ best
