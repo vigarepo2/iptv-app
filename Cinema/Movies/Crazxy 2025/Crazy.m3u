@@ -1,7 +1,7 @@
 #EXTM3U
 
 #EXTINF:-1 tvg-id="crazxy720p" tvg-name="Crazxy 2025 720p" tvg-logo="https://m.media-amazon.com/images/S/pv-target-images/b7dad61f00124228875f2182a9c17c85b51fbc095d2196209c225511e610fa0f.jpg" group-title="Movies",Crazxy 2025 720p
-https://huggingface.co/vigarepo2/drive/resolve/main/cli-files/upload/crazxy/Crazxy.2025.720p.Hindi.WEB-DL.5.1.mkv
+https://huggingface.co/vigarepo2/drive/resolve/main/cdn/directfiles/Crazxy_2025_720p_WEB_DL_HINDI
 
 #EXTINF:-1 tvg-id="crazxy1080p" tvg-name="Crazxy 2025 1080p" tvg-logo="https://m.media-amazon.com/images/S/pv-target-images/b7dad61f00124228875f2182a9c17c85b51fbc095d2196209c225511e610fa0f.jpg" group-title="Movies",Crazxy 2025 1080p
-https://huggingface.co/vigarepo2/drive/resolve/main/cli-files/upload/crazxy/Crazxy.2025.1080p.Hindi.WEB-DL.5.1.mkv
+https://huggingface.co/vigarepo2/drive/resolve/main/cdn/directfiles/Crazxy_2025_1080p_HEVC_WEB_DL_HINDI
