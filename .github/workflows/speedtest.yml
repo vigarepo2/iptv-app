@@ -1,0 +1,18 @@
+name: Speedtest
+
+on:
+  workflow_dispatch:  # Enables manual trigger
+
+jobs:
+  run-speedtest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install speedtest-cli
+        run: sudo apt-get update && sudo apt-get install -y speedtest-cli
+
+      - name: Run speedtest
+        run: speedtest-cli
