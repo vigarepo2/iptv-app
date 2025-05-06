@@ -1,18 +1,55 @@
-name: Speedtest
+name: Check Runner Specs
 
 on:
-  workflow_dispatch:  # Enables manual trigger
+  workflow_dispatch:  # Allows manual trigger from GitHub UI
 
 jobs:
-  run-speedtest:
+  show-specs:
     runs-on: ubuntu-latest
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Install speedtest-cli
-        run: sudo apt-get update && sudo apt-get install -y speedtest-cli
+      - name: OS and Kernel Info
+        run: |
+          echo "## OS and Kernel"
+          uname -a
+          cat /etc/os-release
 
-      - name: Run speedtest
-        run: speedtest-cli
+      - name: CPU Info
+        run: |
+          echo "## CPU Info"
+          lscpu
+
+      - name: Memory Info
+        run: |
+          echo "## Memory Info"
+          free -h
+          cat /proc/meminfo | head -20
+
+      - name: Disk Info
+        run: |
+          echo "## Disk Info"
+          df -h
+          lsblk
+
+      - name: GPU Info
+        run: |
+          echo "## GPU Info"
+          if command -v nvidia-smi &> /dev/null; then
+            nvidia-smi
+          else
+            echo "No GPU detected or NVIDIA drivers not installed."
+          fi
+
+      - name: Network Info
+        run: |
+          echo "## Network Info"
+          ip addr
+          ping -c 2 google.com
+
+      - name: List All Environment Variables
+        run: |
+          echo "## Environment Variables"
+          printenv | sort
