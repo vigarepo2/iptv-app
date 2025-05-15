@@ -21,6 +21,8 @@ https://otttv.co.in/d2h/livestream/republic-bharat/master.m3u8
 https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9hinjzgtpe/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Times_Now_Navbharat.png" group-title="News",Times Now Navbharat
 https://dvvvc0h9v3hoz.cloudfront.net/master.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/12/DD_News_New_Logo.png" group-title="News",DD News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731586
 
 # Top Punjabi News Channels
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/ETV_Haryana_and_HP_News.png" group-title="News",News18 Punjab Haryana Himachal
