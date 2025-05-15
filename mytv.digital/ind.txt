@@ -1,0 +1,1725 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| &Flix
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731734
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| &Pictures
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731733
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| &Prive
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731732
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| &TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731731
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| 10 TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731730
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| 1Sports
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731729
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| 24
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731728
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| 24 Ghanta TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731727
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| 24HRS TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731726
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| 3 Tamil TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731725
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| 4 TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731724
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| 5aab TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731723
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| 7X Music
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731722
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| 9 Bharat Samachar
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731721
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| 9X Jalwa
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731720
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| 9X Jhakaas
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731719
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| 9X Tashan
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731718
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| 9XM
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731717
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| A1 TV Rajasthan
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731716
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| AAG Television (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731715
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ABN Aj News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731714
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ABP Ananda
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731713
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ABP Asmita
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731712
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ABP Ganga
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731711
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ABP Majha
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731710
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ABP News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731709
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ABP Sanjha
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731708
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ANB News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731707
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ANN News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731706
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| APN News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731705
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ARY Digital (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731704
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ARY News (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731703
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ARY QTV (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731702
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ARY Zauq (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731701
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Aadinath TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731700
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Aaj Tak
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731699
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Aakash Aath
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731698
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Aapka Colors (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731697
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Aastha Bhajan
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731696
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Aastha Kannada
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731695
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Aastha TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731694
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Aastha Tamil
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731693
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Aastha Telugu
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731692
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Aditya TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731691
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Amaar Bangla
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731690
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Amrita TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731689
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Anaadi TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731688
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Anand Barta TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731687
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Anand TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731686
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Angel TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731685
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Animal Planet
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731684
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Animal Planet Hindi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731683
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Animal Planet Tamil
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731682
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Anjan TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731681
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Aradana TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731680
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Argus TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731679
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Arihant TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731678
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Arre
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731677
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Asianet
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731676
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Asianet Movies
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731675
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Asianet News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731674
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Asianet Plus
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731673
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Asianet Suvarna News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731672
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Assam Talks
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731671
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Astro Cricket
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731670
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Awakening
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731669
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Ayush TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731668
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| B4U Bhojpuri
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731667
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| B4U Kadak
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731666
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| B4U Movies
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731665
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| B4U Movies (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731664
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| B4U Music
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731663
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| B4U Music (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731662
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| B4U Plus
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731661
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| BD Enterr 10
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731660
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| BD ND 24 TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731659
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| BTV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731658
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| BVTV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731657
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Babulnaath Mumbai
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731656
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Badakhabar
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731655
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Balle Balle
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731654
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Bangla Bhakti
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731653
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Bansal News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731652
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Bhakti Sagar
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731651
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Bhakti TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731650
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Bhaktisagar 2
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731649
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Bharat Samachar
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731648
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Bhojpuri Cinema
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731647
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Big Megic
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731646
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Bol Hadippa
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731645
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Boogle Bollywood
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731644
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Brit Asia
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731643
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| C News Bharat
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731642
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| CN+ Tamil
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731641
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| CN+ Telugu
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731640
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| CNBC Awaaz
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731639
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| CNBC Bazaar
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731638
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| CNBC TV 18
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731637
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| CNBC TV 18 Prime
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731636
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| CVR Health
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731635
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| CVR News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731634
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| CVR News EN
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731633
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Calcutta News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731632
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Calvary TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731631
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Cartoon Network
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731630
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Cartoon Network Hindi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731629
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Channel Vision
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731628
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Channel Win
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731627
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Channel Y
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731626
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Chardikla Time TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731625
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Chintu TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731624
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Chutti
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731623
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Click News 18
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731622
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Colors
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731621
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Colors Bangla
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731620
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Colors Cineplex
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731619
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Colors Cineplex (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731618
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Colors Cineplex Bollywood
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731617
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Colors Cineplex UK
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731616
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Colors Gujarati
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731615
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Colors Gujarati Cinema
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731614
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Colors Infinity
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731613
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Colors Kannada
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731612
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Colors Kannada (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731611
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Colors Kannada Cinema
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731610
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Colors Marathi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731609
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Colors Marathi (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731608
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Colors Oriya
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731607
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Colors Rishtey
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731606
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Colors Rishtey (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731605
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Colors Rishtey uk
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731604
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Colors Super
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731603
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Colors Tamil
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731602
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Colors Tamil (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731601
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Colors UK
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731600
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Comedy Central
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731599
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Ctvn And Plus
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731598
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DD 13 Guwahati NE
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731597
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DD Bangla
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731596
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DD Bharati
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731595
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DD Bihar
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731594
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DD Chandana
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731593
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DD Girnar
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731592
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DD India
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731591
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DD Kisan
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731590
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DD Madhya Pradesh
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731589
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DD Malayalam
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731588
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DD National
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731587
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DD News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731586
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DD Oriya
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731585
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DD Podhigai
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731584
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DD Punjabi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731583
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DD Rajasthan
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731582
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DD Sahyadri
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731581
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DD Saptagiri
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731580
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DD Sports
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731579
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DD Urdu
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731578
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DD Uttar Pradesh
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731577
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DD Yadagiri
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731576
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DPK News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731575
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DY 365
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731574
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Dabangg
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731573
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Dangal
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731572
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Darshan 24
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731571
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Desi Channel
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731570
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Dhamaal TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731569
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Dighvijay TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731568
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Digishala
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731567
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Dillagi TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731566
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Discovery Channel
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731565
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Discovery Channel Bengali
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731564
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Discovery Channel Hindi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731563
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Discovery Channel Telugu
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731562
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Discovery Kids Hindi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731561
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Discovery Science
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731560
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Discovery Turbo
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731559
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Divya TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731558
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Divya Vani
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731557
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Divyaang News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731556
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Dunya TV (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731555
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| E 24
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731554
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| EET TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731553
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ET Now
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731552
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ET Now Swadesh
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731551
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ETV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731550
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ETV Abhiruchi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731549
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ETV AndhraPradesh
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731548
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ETV Cinema
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731547
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ETV Life
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731546
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ETV Plus
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731545
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ETV Telangana
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731544
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Eawaz TV Canada
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731543
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Epic
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731542
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Eurosport
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731541
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Bharat Express
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731540
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Fakt Marathi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731539
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Fastway News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731538
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Fateh TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731537
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| First India News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731536
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Flowers TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731535
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Food Food
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731534
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Food XP
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731533
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| GEO News (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731532
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| GEO TV (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731531
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| GS TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731530
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Ganga Darshan Varanasi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731529
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Garshom TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731528
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Garv Gurbani
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731527
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Garv Punjab Gurbani (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731526
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Gaunda Punjab
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731525
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Gemini Comedy
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731524
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Gemini Comedy (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731523
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Gemini Life
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731522
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Gemini Movies
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731521
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Gemini Movies (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731520
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Gemini Music
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731519
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Gemini TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731518
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Gemini TV (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731517
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Ghaint Punjab
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731516
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Global India
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731515
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Global Punjab
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731514
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| God TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731513
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Good News Channel
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731512
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Good News Today
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731511
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Goodness TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731510
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Green Chillies
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731509
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Gulistan News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731508
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Gurkebaani
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731507
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Gyanvani 1
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731506
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| HMTV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731505
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| HNN 24x7
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731504
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| HUM Masala (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731503
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| HUM Sitaray (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731502
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| HUM TV (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731501
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Hamdard TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731500
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Hare Krishna TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731499
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Hare Krsna Music
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731498
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Hare Krsna Pravachan
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731497
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Harvest 24x7
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731496
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Haryanvi Hits
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731495
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Hindi Khabar
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731494
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Hindu Dharmam
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731493
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| History 18
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731492
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| History 18 Hindi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731491
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| History 18 Tamil
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731490
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| History 18 Telugu
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731489
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Hosanna
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731488
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Hulchul TV Canada
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731487
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| IBC 24
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731486
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| IND 24
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731485
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| INH 24x7
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731484
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ITV Gold (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731483
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| In Goa 24x7
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731482
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| India News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731481
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| India News Gujarat
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731480
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| India News Haryana
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731479
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| India News MP
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731478
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| India News Punjabi Himachal
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731477
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| India News Rajasthan
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731476
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| India News UP
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731475
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| India TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731474
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| India Today News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731473
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| India Voice
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731472
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Indradhanu
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731471
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Indywood TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731470
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Insync
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731469
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Investigation Discovery
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731468
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Isaiaruvi TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731467
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Ishwar TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731466
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| J Movies
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731465
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| JK 24x7 News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731464
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| JMovies (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731463
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| JUS 24x7
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731462
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| JUS Hindi (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731461
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| JUS One
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731460
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| JUSA Punjabi (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731459
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jaihind TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731458
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jan Setu TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731457
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jan TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731456
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Janam TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731455
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Janapriyam News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731454
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Janta TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731453
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jantantra
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731452
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jaya Max
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731451
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jaya Max (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731450
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jaya Plus
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731449
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jaya TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731448
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jaya TV (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731447
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jeevan TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731446
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jigyasa TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731445
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jinvani TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731444
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Cinema Cricket  मराठी
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731443
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Cinema Cricket Bangla বাংলা
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731442
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Cinema Cricket Bhojpuri भोजपुरी
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731441
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Cinema Cricket English
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731440
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Cinema Cricket Gujarati ગુજરાતી
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731439
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Cinema Cricket Hindi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731438
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Cinema Cricket Kannada ಕನ್ನಡ
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731437
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Cinema Cricket Malayalam മലയാളം
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731436
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Cinema Cricket Punjabi ਪੰਜਾਬੀ
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731435
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Cinema Cricket Tamil தமிழ்
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731434
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Cinema Cricket Telugu తెలుగు
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731433
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Cricket 1
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731432
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Cricket 2
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731431
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Cricket 3
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731430
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Cricket 4
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731429
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Cricket English
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731428
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Events
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731427
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Exclusive
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731426
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Football
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731425
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Football 1
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731424
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Football 2
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731423
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Football 3
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731422
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Football 4
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731421
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Football 7
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731420
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Football 8
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731419
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Kids
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731418
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Sports
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731417
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Sports 1
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731416
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Sports 2
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731415
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Sports 3
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731414
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jio Sports 4
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731413
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jonack TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731412
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Jus Punjabi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731411
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| K News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731410
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| KITE Victers
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731409
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| KTV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731408
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| KTV (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731407
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Kadak Hits
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731406
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Kairali News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731405
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Kairali News (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731404
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Kairali TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731403
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Kairali TV (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731402
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Kairali We (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731401
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Kalaignar TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731400
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Kalinga TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731399
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Kanak TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731398
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Kannur One
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731397
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Kappa TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731396
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Karani Mata Rajasthan
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731395
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Kartavya Tv
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731394
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Kashish News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731393
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Kasturi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731392
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Kaumudy TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731391
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Khabar Fast
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731390
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Khabrain Abhi Tak
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731389
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Khusboo TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731388
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Khushi TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731387
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Kochu TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731386
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Kolkata TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731385
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Kripa TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731384
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Lakshya TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731383
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Live Punjabi TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731382
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Living India News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731381
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Lok Sabha TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731380
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Lokshahi News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731379
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| MBC
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731378
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| MH One News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731377
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| MH1 Dil Se
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731376
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| MH1 Shraddha
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731375
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| MK Music
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731374
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| MK TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731373
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| MKN News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731372
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| MTV Beats
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731371
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| MTV India
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731370
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| MTV Plus
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731369
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Maa Gold
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731368
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Maa Movies
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731367
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Madha TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731366
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Madhimugam TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731365
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Magnavision TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731364
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Maha Movies
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731363
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Maiboli
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731362
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Makkal TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731361
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Malnadu TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731360
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Manav Dharam
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731359
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Mangalmay TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731358
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Manjari TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731357
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Manorama News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731356
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Manoranjan Grand
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731355
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Manoranjan Movies
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731354
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Manoranjan TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731353
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Mantavya News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731352
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Mastiii
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731351
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Mathrubhumi News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731350
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Mazhavil Manorama
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731349
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Mazhavil Manorama (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731348
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Media One
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731347
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Mercy TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731346
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Mirror Now
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731345
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Movies Now
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731344
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Mumbadevi Mumbai
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731343
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Munsif TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731342
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Murasu
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731341
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Music India
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731340
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| NDTV 24x7
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731339
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| NDTV Good Times
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731338
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| NDTV INDIA
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731337
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| NDTV Profit
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731336
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| NE News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731335
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| NK TV Plus
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731334
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| NTV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731333
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Naaptol
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731332
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Nambikkai
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731331
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Namdhari  TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731330
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Nandighosha
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731329
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Nat Geo
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731328
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Naxatra News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731327
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Nazrana TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731326
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Nepal 1
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731325
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Network 10
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731324
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News 1 India
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731323
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News 11 Bharat
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731322
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News 18 North East
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731321
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News 18 Bangla
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731320
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News 18 Bihar Jharkhand
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731319
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News 18 Gujarati
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731318
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News 18 India
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731317
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News 18 JK & LH
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731316
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News 18 Kannada
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731315
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News 18 Kerala
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731314
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News 18 Lokmat
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731313
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News 18 MP Chhattisgarh
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731312
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News 18 Oriya
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731311
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News 18 Punjab Haryana and HP
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731310
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News 18 Rajasthan
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731309
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News 18 Tamilnadu
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731308
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News 18 UP Uttarakhand
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731307
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News 24
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731306
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News 7
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731305
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News First
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731304
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News India 24x7
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731303
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News J
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731302
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News Live
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731301
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News Nation
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731300
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News State up uk
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731299
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News Time TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731298
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News X
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731297
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Nick
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731296
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Nick Hindi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731295
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Nick Jr
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731294
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Nick Kannada
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731293
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Nick Malayalam
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731292
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Nimbark TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731291
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Nireekshana TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731290
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| North East Live
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731289
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| OM CVR
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731288
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Om Shanti
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731287
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| One TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731286
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Only Music
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731285
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Oscar Movies
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731284
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| PMC
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731283
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| PMC Hindi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731282
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| PTC Chak De
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731281
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| PTC Music
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731280
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| PTC News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731279
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| PTC Punjabi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731278
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| PTC Punjabi (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731277
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| PTC Punjabi Gold
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731276
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| PTC Simran
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731275
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Paras TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731274
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Peace Of Mind
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731273
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Peace Urdu
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731272
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Peppers TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731271
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Pitaara
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731270
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Pogo Hindi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731269
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Pogo Tamil
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731268
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Polimer News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731267
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Polimer TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731266
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Pop Pataka
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731265
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Power Vision TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731264
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Prag News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731263
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Prajaa TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731262
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Prameya News 7
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731261
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Prarthana Bhawan
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731260
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Pratham Khabar 24x7
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731259
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Prati Shirdi Saibaba
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731258
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Pratidin News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731257
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Pravasi Channel
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731256
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Prime  News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731255
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Prudent TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731254
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Public Music
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731253
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Public TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731252
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Pulari TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731251
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Punjab Plus
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731250
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Purnima TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731249
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Puthiya Thalaimurai
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731248
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Puthuyugam TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731247
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| RPlus TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731246
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| RadheKrishna TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731245
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Raj Digital Plus
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731244
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Raj Digital Plus (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731243
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Raj Music Kannada
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731242
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Raj Music Telugu
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731241
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Raj Musix
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731240
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Raj Musix (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731239
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Raj Musix Malayama
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731238
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Raj News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731237
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Raj News (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731236
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Raj News 24X7
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731235
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Raj News Kannada
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731234
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Raj News Telugu
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731233
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Raj Pariwar
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731232
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Raj TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731231
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Raj TV (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731230
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Raj Yasabha
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731229
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Raj Yoga
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731228
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Ramdhenu
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731227
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Rang
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731226
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Rangamanch
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731225
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Real News Kerala
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731224
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Real TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731223
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Rengoni
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731222
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Reporter TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731221
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Republic Bangla
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731220
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Republic Bharat
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731219
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Republic TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731218
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Rishtey Cineplex
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731217
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Rongeen TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731216
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| SAB UK
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731215
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| SET Max (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731214
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| SRMD
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731213
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| STV Haryana News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731212
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| SUN Music (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731211
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| SUN TV (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731210
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| SVBC
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731209
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| SVBC 2
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731208
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| SVBC 3
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731207
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| SVBC 4
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731206
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Saam TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731205
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sadhguru Television
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731204
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sadhna Bhakti
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731203
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sadhna News Plus
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731202
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sadhna TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731201
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Safari TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731200
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sahana Music
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731199
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sahara Samay Bihar
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731198
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sahara Samay MP
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731197
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sahara Samay Rastriya
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731196
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sahara Samay UP
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731195
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sai Leela
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731194
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sai TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731193
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sakshi TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731192
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Samara News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731191
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Samay Kolkata
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731190
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Samay Rajasthan
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731189
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sandesh News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731188
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sangat TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731187
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sangeet Bangla
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731186
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sangeet Bhojpuri
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731185
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sangeet Marathi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731184
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sanskaar TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731183
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sanskrit
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731182
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Santvani
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731181
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sathiyam TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731180
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Satsang
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731179
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Santhora TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731178
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Seithigal TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731177
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Set Max UK
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731176
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Shalom TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731175
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sharnam TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731174
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Shemaroo Marathibana
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731173
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Shemaroo TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731172
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Shiksha TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731171
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Shubh TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731170
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Shubhsandesh TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731169
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sidharth Bhakti
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731168
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sidharth Gold
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731167
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sidharth TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731166
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sikh Channel
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731165
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sky Sports Cricket
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731164
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sky Sports Main Event
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731163
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Smithsonian Channel
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731162
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Soham TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731161
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Songdew
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731160
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sonic
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731159
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sonic Bangla
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731158
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sonic Hindi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731157
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sonic Kannada
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731156
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sonic Malayalam
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731155
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sonic Marathi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731154
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sonic Telugu
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731153
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731152
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony Aath
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731151
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony BBC Earth
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731150
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony BBC Earth Hindi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731149
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony BBC Earth Tamil
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731148
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony BBC Earth Telugu
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731147
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony Marathi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731146
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony Marathi (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731145
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony Max
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731144
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony Max 2
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731143
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony Max 2 (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731142
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony Pal
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731141
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony Pal (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731140
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony Pix
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731139
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony SAB
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731138
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony SAB TV (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731137
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony Sports 1
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731136
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony Sports 2
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731135
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony Sports 3
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731134
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony Sports 4
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731133
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony Sports 5
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731132
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony TV (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731131
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony TV UK
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731130
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony Ten 1
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731129
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony Ten 2
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731128
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony Ten 3
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731127
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony Wah
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731126
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony Yay
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731125
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony Yay (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731124
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony Yay Hindi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731123
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony Yay Tamil
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731122
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sony Yay Telugu
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731121
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sports 18
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731120
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sports 18 Hindi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731119
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sri Sankara
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731118
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sri Venkateshwar Bhakti
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731117
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Srist TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731116
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Star Bharat
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731115
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Star Bharat UK
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731114
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Star Gold
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731113
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Star Gold Select
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731112
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Star Jalsa
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731111
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Star Jalsa Movies
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731110
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Star Maa
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731109
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Star Maa Gold
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731108
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Star Plus
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731107
+#EXTINF:-1 tvg-id="" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/320/320/skychb1843.png" group-title="Indian",IN| Star Plus UK
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731106
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Star Pravah
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731105
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Star Sports 1
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731104
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Star Sports 1 Hindi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731103
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Star Sports 2
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731102
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Star Sports Select 1
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731101
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Star Sports Select 2
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731100
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Star Suvarna
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731099
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Star Utsav
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731098
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Star Vijay
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731097
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Star Vijay Super
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731096
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Starz Play CricLife 1
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731095
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Starz Play CricLife 2
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731094
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Starz Play CricLife 3
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731093
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Steelbird Music
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731092
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Studio One
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731091
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Studio Yuva Alpha
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731090
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Subharti
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731089
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Subhavartha TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731088
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sudarshan News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731087
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sun Bangla
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731086
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sun Life
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731085
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sun Music
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731084
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sun News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731083
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sun TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731082
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Surya Comedy
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731081
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Surya Movies
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731080
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Surya Movies (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731079
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Surya Music
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731078
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Surya TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731077
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Surya TV (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731076
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Swadesh News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731075
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| T News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731074
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| TIME8
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731073
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| TLC
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731072
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| TLC Hindi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731071
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| TLC World
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731070
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| TV 100
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731069
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| TV Asia (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731068
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| TV One (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731067
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| TV5 Kannada
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731066
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| TV9 Bangla
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731065
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| TV9 Bharatvarsh
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731064
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| TV9 Kannada
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731063
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| TV9 Marathi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731062
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| TV9 Telugu
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731061
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tamil Vision International
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731060
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tara TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731059
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tehzeeb TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731058
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Ten 4 Tamil
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731057
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Thanthi TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731056
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| The Q
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731055
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Times Now
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731054
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Times Now (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731053
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Times Now NavBharat
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731052
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Top News Marathi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731051
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Total TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731050
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Total Tv Haryana
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731049
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Travel XP Eng
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731048
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Travel XP Hindi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731047
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Travel XP Tamil
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731046
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tribe TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731045
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tunes 6
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731044
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| TV9 Gujarat
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731043
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| U Bangla
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731042
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Udaya Comedy
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731041
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Udaya Movies
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731040
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Udaya Music
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731039
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Udaya TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731038
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Udaya TV (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731037
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Udupi Krishna Temple
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731036
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| V6 News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731035
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| VH1
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731034
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| VTV Gujarati
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731033
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Valambhakti
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731032
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Vande Gujarat 1
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731031
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Vande Gujarat 10
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731030
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Vande Gujarat 11
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731029
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Vande Gujarat 12
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731028
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Vande Gujarat 13
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731027
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Vande Gujarat 14
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731026
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Vande Gujarat 15
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731025
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Vande Gujarat 16
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731024
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Vande Gujarat 2
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731023
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Vande Gujarat 3
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731022
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Vande Gujarat 4
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731021
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Vande Gujarat 5
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731020
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Vande Gujarat 6
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731019
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Vande Gujarat 7
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731018
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Vande Gujarat 8
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731017
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Vande Gujarat 9
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731016
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Vanitha TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731015
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Vasanth TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731014
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Vedic Maths
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731013
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Velicham
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731012
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Velukkudi Discourses
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731011
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Vendhar TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731010
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Vissa TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731009
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| We TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731008
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Wah Punjabi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731007
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Willow Cricket
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731006
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Willow Cricket Extra
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731005
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Win TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731004
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Wion TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731003
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| World CUP  2
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731002
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| World CUP  3
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731001
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| World CUP 2023
+http://mytv.digital:80/hevern1996/mIovw2mgx6/731000
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| World Punjab
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730999
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Yoganadam News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730998
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee 24 Ghanta
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730997
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee 24 Kalak
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730996
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee 24 Taas
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730995
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Action
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730994
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Aflam
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730993
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Anmol
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730992
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Anmol Cinema
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730991
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Bangla
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730990
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Bangla Cinema
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730989
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Bihar JH
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730988
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Bollywood
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730987
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Business
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730986
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Cafe
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730985
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Canada
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730984
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Chitramandir
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730983
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Cinema
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730982
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Cinema (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730981
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Cinemalu
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730980
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Classic
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730979
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Delhi NCR Haryana
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730978
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Hindustan
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730977
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Keralam
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730976
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Kannada
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730975
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Kannada News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730974
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Madhya Pradesh Chhattisgarh News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730973
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Marathi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730972
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730971
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Odisha
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730970
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Picchar
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730969
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Punjab Haryana Himachal Pradesh
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730968
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Punjabi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730967
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Rajasthan News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730966
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Salaam
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730965
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Sarthak
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730964
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730963
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee TV (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730962
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee TV UK
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730961
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Talkies
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730960
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Tamil
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730959
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Telugu
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730958
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Thirai
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730957
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee UP UK
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730956
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Yuva
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730955
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Zest
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730954
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zing (USA)
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730953
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zing TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730952
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zoom
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730951
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| A cna
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730950
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ABN Andhra Jyothy
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730949
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ABP News India
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730948
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Aakaash Aath
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730947
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Akaal Punjabi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730946
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Ary Zindagi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730945
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Baby TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730944
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Band Sports
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730943
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Bflix
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730942
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Bharat 24
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730941
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Big Magic
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730940
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DD North East
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730939
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| DW TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730938
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ETV Telugu
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730937
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Eleven Sport Asia
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730936
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Enterr 10 Movies
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730935
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Indian News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730934
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Kasthuri
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730933
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Khabarain Abhi Tak
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730932
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Khushboo Bangla
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730931
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Krishna Vaani
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730930
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Lakshaya Gujrati
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730929
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| MTV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730928
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Mercury+
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730927
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Miniplex
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730926
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Munsif TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730925
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| ND24
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730924
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Nat Geo Wild
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730923
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News 7 Tamil
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730922
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| News Time Bangla
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730921
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Pardesi TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730920
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Raj News Malayalam
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730919
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Sanskar
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730918
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Shri Babulnaath Temple Mumbai
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730917
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Shri Ganga Aarti  Varanasi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730916
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Star Maa Movies
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730915
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Star Sports 3 En
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730914
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Beauty
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730913
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play CNBC TV 18
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730912
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Cinema TV India
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730911
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play DD Gyan Darshan
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730910
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Dangal 2
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730909
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Dhamaka Movies
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730908
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play ETV BalBharat
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730907
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Ezmall
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730906
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play FM News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730905
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Filmchi Bhojpuri
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730904
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Fox Life
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730903
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Fun Learn Preschool
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730902
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Gubbare
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730901
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Har Ghar Startup
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730900
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Har Khabar
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730899
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Hollywood Local
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730898
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play India News Punjab
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730897
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Ishara
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730896
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play MN+
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730895
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play MNX
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730894
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Nick
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730893
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Nickelodeon Sonic
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730892
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play R.Republic Bharat
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730891
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Romance
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730890
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Samay News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730889
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Sansad TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730888
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Seniors
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730887
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Shemaroo Umang
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730886
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Shorts TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730885
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Super Hungama
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730884
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Theatre
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730883
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Times Now World
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730882
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Videshi Kahaniyan
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730881
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Wow Cinema One
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730880
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tata Play Zindagi
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730879
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Ten Sports
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730878
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Tez TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730877
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Toronto Gaunda Punjab
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730876
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Twenty Four News
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730875
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Win TV
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730874
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Indian",IN| Zee Bioskope
+http://mytv.digital:80/hevern1996/mIovw2mgx6/730873
