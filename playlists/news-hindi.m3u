@@ -27,7 +27,7 @@ http://mytv.digital:80/hevern1996/mIovw2mgx6/731586
 # Top Punjabi News Channels
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/ETV_Haryana_and_HP_News.png" group-title="News",News18 Punjab Haryana Himachal
 https://nw18live.cdn.jio.com/bpk-tv/News18_Punjab_Haryana_HP_NW18_MOB/output01/index.m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Punjabi_HP_Haryana.png" group-title="News",Zee Punjabi HP Haryana
+#EXTINF:-1 tvg-logo="https://img.tgcdn.org/i/zeephh.svg" group-title="News",Zee Punjabi HP Haryana
 https://d31s6sxcz6vnac.cloudfront.net/index_3.m3u8
 
 # Other Hindi and Punjabi News Channels
