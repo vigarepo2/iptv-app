@@ -61,15 +61,15 @@ https://nw18live.cdn.jio.com/bpk-tv/News18_Bihar_Jharkhand_NW18_MOB/output01/ind
 https://nw18live.cdn.jio.com/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/index.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/CNBC_Bazaar_MNO.png" group-title="News",CNBC Bazaar
 https://nw18live.cdn.jio.com/bpk-tv/CNBC_Bazaar_NW18_MOB/output01/index.m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Kalinga.png" group-title="News",Zee Delhi NCR Haryana
+#EXTINF:-1 tvg-logo="https://img.tgcdn.org/i/Zee_Delhi-NCR-Haryana.svg" group-title="News",Zee Delhi NCR Haryana
 https://d2s40ae9uabrl.cloudfront.net/index_4.m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_SANGAM.png" group-title="News",Zee Bharat
+#EXTINF:-1 tvg-logo="https://img.tgcdn.org/i/ZEE_BHARAT.svg" group-title="News",Zee Bharat
 https://d1hp2yai3k4ork.cloudfront.net/index_4.m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_News_MP_Chattisgarh.png" group-title="News",Zee News MP Chhattisgarh
+#EXTINF:-1 tvg-logo="https://img.tgcdn.org/i/Zee_UP_UK.svg" group-title="News",Zee UP-Uttarakhand
 https://duw35ict5q7th.cloudfront.net/index_3.m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Purvaiya.png" group-title="News",Zee Bihar Jharkhand
+#EXTINF:-1 tvg-logo="https://img.tgcdn.org/i/Zee_Bihar_Jharkhand.svg" group-title="News",Zee Bihar Jharkhand
 https://d3vmwjy7v49lo5.cloudfront.net/index_4.m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Rajasthan.png" group-title="News",Zee Rajasthan
+#EXTINF:-1 tvg-logo="https://img.tgcdn.org/i/Zee-Rajasthan.svg" group-title="News",Zee Rajasthan
 https://d2jso9g61rg1h8.cloudfront.net/index_3.m3u8
-#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Business.png" group-title="News",Zee Business
+#EXTINF:-1 tvg-logo="https://img.tgcdn.org/i/zeebiz_logo.svg" group-title="News",Zee Business
 https://dwby15d04agvq.cloudfront.net/index_5.m3u8
