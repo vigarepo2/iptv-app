@@ -31,8 +31,8 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/0811cd8c37ca4c409d5385a6cd2fa18b/in
 https://nw18live.cdn.jio.com/bpk-tv/News18_Punjab_Haryana_HP_NW18_MOB/output01/index.m3u8
 #EXTINF:-1 tvg-logo="https://img.tgcdn.org/i/zeephh.svg" group-title="News",Zee Punjabi HP Haryana
 https://d31s6sxcz6vnac.cloudfront.net/index_3.m3u8
-#EXTINF:-1 tvg-id="IndiaNewsPunjab" tvg-name="India News Punjab" tvg-logo="" group-title="News",India News Punjab
-http://filex.me:8080/live/1234567890/1234567890/522719.m3u8
+#EXTINF:-1 tvg-id="IndiaNewsPunjab" tvg-name="India News Punjab" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/India-News-Punjab.png" group-title="News",India News Punjab
+https://xfireflix.fun/file/opplex/live.m3u8?id=244817&e=.m3u8
 #EXTINF:-1 tvg-id="MHOneNews" tvg-name="MH One News" tvg-logo="" group-title="News",MH One News
 http://filex.me:8080/live/1234567890/1234567890/522711.m3u8
 #EXTINF:-1 tvg-id="PTCNews" tvg-name="PTC News" tvg-logo="" group-title="News",PTC News
