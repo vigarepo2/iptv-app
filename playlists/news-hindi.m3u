@@ -45,9 +45,9 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 https://amg24335-amg24335c5-amgplt0016.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg24335-amg24335c5-amgplt0016/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPunjab" tvg-name="TV Punjab" tvg-logo="https://a.jsrdn.com/hls/23015/tv-punjab/poster_20211203_222411.jpg" group-title="News",TV Punjab
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv-punjab/master.m3u8
-#EXTINF:-1 tvg-id="NewsOnly" tvg-name="News Only" tvg-logo="" group-title="News",News Only
+#EXTINF:-1 tvg-id="NewsOnly" tvg-name="News Only" tvg-logo="https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/417429835.jpeg" group-title="News",News Only
 http://livestream.unlimitedcdn.com/newsonly/index.m3u8
-#EXTINF:-1 tvg-id="Spokesman" tvg-name="Spokesman" tvg-logo="" group-title="News",Spokesman
+#EXTINF:-1 tvg-id="RozanaSpokesman" tvg-name="RozanaSpokesman" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Rozana_Spokesman.png" group-title="News",Rozana Spokesman
 https://live1.ottlive.co.in/spokesman/spokesman/index.m3u8
 
 # Other Hindi and Punjabi News Channels
