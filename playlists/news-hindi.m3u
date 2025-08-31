@@ -31,21 +31,21 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/0811cd8c37ca4c409d5385a6cd2fa18b/in
 https://nw18live.cdn.jio.com/bpk-tv/News18_Punjab_Haryana_HP_NW18_MOB/output01/index.m3u8
 #EXTINF:-1 tvg-logo="https://img.tgcdn.org/i/zeephh.svg" group-title="News",Zee Punjabi HP Haryana
 https://d31s6sxcz6vnac.cloudfront.net/index_3.m3u8
-#EXTINF:-1 tvg-id="India News Punjab" tvg-name="IndiaNewsPunjab" tvg-logo="" group-title="News",IndiaNewsPunjab
+#EXTINF:-1 tvg-id="IndiaNewsPunjab" tvg-name="India News Punjab" tvg-logo="" group-title="News",India News Punjab
 http://filex.me:8080/live/1234567890/1234567890/522719.m3u8
-#EXTINF:-1 tvg-id="MH One News" tvg-name="MHOneNews" tvg-logo="" group-title="News",MHOneNews
+#EXTINF:-1 tvg-id="MHOneNews" tvg-name="MH One News" tvg-logo="" group-title="News",MH One News
 http://filex.me:8080/live/1234567890/1234567890/522711.m3u8
-#EXTINF:-1 tvg-id="PTC News" tvg-name="PTCNews" tvg-logo="" group-title="News",PTCNews
+#EXTINF:-1 tvg-id="PTCNews" tvg-name="PTC News" tvg-logo="" group-title="News",PTC News
 http://plus.newdns.world:8080/BrunoDaniela/cCjFAGrl5R/5908
-#EXTINF:-1 tvg-id="ABP Sanjha" tvg-name="ABPSanjha" tvg-logo="" group-title="News",ABPSanjha
+#EXTINF:-1 tvg-id="ABPSanjha" tvg-name="ABP Sanjha" tvg-logo="" group-title="News",ABP Sanjha
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-sanjha/master.m3u8
-#EXTINF:-1 tvg-id="Living India News" tvg-name="LivingIndiaNews" tvg-logo="" group-title="News",LivingIndiaNews
+#EXTINF:-1 tvg-id="LivingIndiaNews" tvg-name="Living India News" tvg-logo="" group-title="News",Living India News
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/living-india-news/index.m3u8
-#EXTINF:-1 tvg-id="News State Punjab Haryana" tvg-name="NewsStatePunjabHaryana" tvg-logo="" group-title="News",NewsStatePunjabHaryana
+#EXTINF:-1 tvg-id="NewsStatePunjabHaryana" tvg-name="News State Punjab Haryana" tvg-logo="" group-title="News",News State Punjab Haryana
 https://amg24335-amg24335c5-amgplt0016.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg24335-amg24335c5-amgplt0016/playlist.m3u8
-#EXTINF:-1 tvg-id="TV Punjab" tvg-name="TVPunjab" tvg-logo="" group-title="News",TVPunjab
+#EXTINF:-1 tvg-id="TVPunjab" tvg-name="TV Punjab" tvg-logo="" group-title="News",TV Punjab
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv-punjab/master.m3u8
-#EXTINF:-1 tvg-id="NewsOnly" tvg-name="NewsOnly" tvg-logo="" group-title="News",NewsOnly
+#EXTINF:-1 tvg-id="NewsOnly" tvg-name="News Only" tvg-logo="" group-title="News",News Only
 http://livestream.unlimitedcdn.com/newsonly/index.m3u8
 #EXTINF:-1 tvg-id="Spokesman" tvg-name="Spokesman" tvg-logo="" group-title="News",Spokesman
 https://live1.ottlive.co.in/spokesman/spokesman/index.m3u8
