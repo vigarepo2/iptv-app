@@ -33,17 +33,17 @@ https://nw18live.cdn.jio.com/bpk-tv/News18_Punjab_Haryana_HP_NW18_MOB/output01/i
 https://d31s6sxcz6vnac.cloudfront.net/index_3.m3u8
 #EXTINF:-1 tvg-id="IndiaNewsPunjab" tvg-name="India News Punjab" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/India-News-Punjab.png" group-title="News",India News Punjab
 https://xfireflix.fun/file/opplex/live.m3u8?id=244817&e=.m3u8
-#EXTINF:-1 tvg-id="MHOneNews" tvg-name="MH One News" tvg-logo="" group-title="News",MH One News
+#EXTINF:-1 tvg-id="MHOneNews" tvg-name="MH One News" tvg-logo="https://mhone.in/uploads/logo/logo_6657fd2fafbc20-72263395.png" group-title="News",MH One News
 http://filex.me:8080/live/1234567890/1234567890/522711.m3u8
-#EXTINF:-1 tvg-id="PTCNews" tvg-name="PTC News" tvg-logo="" group-title="News",PTC News
+#EXTINF:-1 tvg-id="PTCNews" tvg-name="PTC News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/PTC_NEWS_LOGO.png" group-title="News",PTC News
 http://plus.newdns.world:8080/BrunoDaniela/cCjFAGrl5R/5908
-#EXTINF:-1 tvg-id="ABPSanjha" tvg-name="ABP Sanjha" tvg-logo="" group-title="News",ABP Sanjha
+#EXTINF:-1 tvg-id="ABPSanjha" tvg-name="ABP Sanjha" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/ABP_Sanjha_logo.svg/693px-ABP_Sanjha_logo.svg.png" group-title="News",ABP Sanjha
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-sanjha/master.m3u8
-#EXTINF:-1 tvg-id="LivingIndiaNews" tvg-name="Living India News" tvg-logo="" group-title="News",Living India News
+#EXTINF:-1 tvg-id="LivingIndiaNews" tvg-name="Living India News" tvg-logo="https://livingindianews.co.in/wp-content/uploads/2025/01/living-india-logo.png" group-title="News",Living India News
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/living-india-news/index.m3u8
-#EXTINF:-1 tvg-id="NewsStatePunjabHaryana" tvg-name="News State Punjab Haryana" tvg-logo="" group-title="News",News State Punjab Haryana
+#EXTINF:-1 tvg-id="NewsStatePunjabHaryana" tvg-name="News State Punjab Haryana" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/News_State_PB_HR_HM.png" group-title="News",News State Punjab Haryana
 https://amg24335-amg24335c5-amgplt0016.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg24335-amg24335c5-amgplt0016/playlist.m3u8
-#EXTINF:-1 tvg-id="TVPunjab" tvg-name="TV Punjab" tvg-logo="" group-title="News",TV Punjab
+#EXTINF:-1 tvg-id="TVPunjab" tvg-name="TV Punjab" tvg-logo="https://a.jsrdn.com/hls/23015/tv-punjab/poster_20211203_222411.jpg" group-title="News",TV Punjab
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv-punjab/master.m3u8
 #EXTINF:-1 tvg-id="NewsOnly" tvg-name="News Only" tvg-logo="" group-title="News",News Only
 http://livestream.unlimitedcdn.com/newsonly/index.m3u8
