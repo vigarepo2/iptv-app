@@ -34,8 +34,8 @@ https://d31s6sxcz6vnac.cloudfront.net/index_3.m3u8
 #EXTINF:-1 tvg-id="IndiaNewsPunjab" tvg-name="India News Punjab" tvg-logo="http://b1gchlogos.xyz/wp-content/uploads/2023/08/India-News-Punjab.png" group-title="News",India News Punjab
 https://xfireflix.fun/file/opplex/live.m3u8?id=244817&e=.m3u8
 #EXTINF:-1 tvg-id="MHOneNews" tvg-name="MH One News" tvg-logo="https://mhone.in/uploads/logo/logo_6657fd2fafbc20-72263395.png" group-title="News",MH One News
-http://exa_edge_2skyd.cdn77.me/58eab44776cce29a3ffa1c2450830fd23a0f76c7af6ac649c8b9749af25e99/mono.m3u8?token=11df073630ec5703d725ecb3c2d576d2
-#http://filex.me:8080/live/1234567890/1234567890/522711.m3u8
+#http://exa_edge_2skyd.cdn77.me/58eab44776cce29a3ffa1c2450830fd23a0f76c7af6ac649c8b9749af25e99/mono.m3u8?token=11df073630ec5703d725ecb3c2d576d2
+http://filex.me:8080/live/1234567890/1234567890/522711.m3u8
 #EXTINF:-1 tvg-id="PTCNews" tvg-name="PTC News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/PTC_NEWS_LOGO.png" group-title="News",PTC News
 http://plus.newdns.world:8080/BrunoDaniela/cCjFAGrl5R/5908
 #EXTINF:-1 tvg-id="ABPSanjha" tvg-name="ABP Sanjha" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/ABP_Sanjha_logo.svg/693px-ABP_Sanjha_logo.svg.png" group-title="News",ABP Sanjha
@@ -49,8 +49,8 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 #EXTINF:-1 tvg-id="NewsOnly" tvg-name="News Only" tvg-logo="https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/417429835.jpeg" group-title="News",News Only
 http://livestream.unlimitedcdn.com/newsonly/index.m3u8
 #EXTINF:-1 tvg-id="RozanaSpokesman" tvg-name="RozanaSpokesman" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Rozana_Spokesman.png" group-title="News",Rozana Spokesman
-#https://live1.ottlive.co.in/spokesman/spokesman/index.m3u8
-http://116229191157.rsc.cdn77.cc/58eab44776cce29a3ffa1c244da961ce30026498fe0084159be930c4aa02e158ce81b8a65aa50c8dff0d94d2/mono.m3u8?token=d6025228d98e1fec4acd54baf0c21aac
+https://live1.ottlive.co.in/spokesman/spokesman/index.m3u8
+#http://116229191157.rsc.cdn77.cc/58eab44776cce29a3ffa1c244da961ce30026498fe0084159be930c4aa02e158ce81b8a65aa50c8dff0d94d2/mono.m3u8?token=d6025228d98e1fec4acd54baf0c21aac
 
 # Other Hindi and Punjabi News Channels
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Tez.png" group-title="News",Good News Today
