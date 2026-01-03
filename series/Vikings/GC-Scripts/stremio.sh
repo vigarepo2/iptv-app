@@ -2,14 +2,13 @@
 
 # ==============================================================================
 # Script Name: stremio.sh
-# Description: M3U Generator (Hybrid: TMDB Search + MetaHub Posters)
-#              Verifies poster sources in console output.
+# Description: Professional M3U Generator (TMDB English Backdrops)
 # Author:      VigaRepo
-# Version:     4.5.0 (Debug Edition)
+# Version:     5.0.0 (Final)
 # ==============================================================================
 
 echo "╔════════════════════════════════════════════════════════════════════╗"
-echo "║      🚀 Initializing Stremio M3U Generator (Hybrid Edition)        ║"
+echo "║      🚀 Initializing Stremio M3U Generator (TMDB Edition)          ║"
 echo "╚════════════════════════════════════════════════════════════════════╝"
 pip install -q requests
 
@@ -21,14 +20,13 @@ import sys
 import os
 from typing import List, Dict, Optional
 
-# --- CONFIGURATION ---
 CONFIG = {
     "STREMIO_BASE_URL": "https://stremio--stremio--m72vl4mnxzkd.code.run",
     "TMDB_API_KEY": "f320fa5c189058be63b5420c044f64e1",
     "DB_INDEX": "1",
     "TIMEOUT": 15,
     "RETRIES": 3,
-    "PLACEHOLDER": "https://placehold.co/600x900/000000/FFFFFF/png?text=No+Image"
+    "PLACEHOLDER": "https://placehold.co/600x400/000000/FFFFFF/png?text=No+Image"
 }
 
 class Logger:
@@ -56,16 +54,20 @@ class MediaService:
     def __init__(self):
         self.client = APIClient()
 
-    def get_imdb_poster(self, tmdb_id: int) -> str:
-        """Fetches IMDb ID from TMDB and converts to MetaHub Poster URL."""
-        url = f"https://api.themoviedb.org/3/movie/{tmdb_id}/external_ids"
-        data = self.client.get(url, {"api_key": CONFIG["TMDB_API_KEY"]})
+    def get_english_backdrop(self, media_type: str, media_id: int) -> str:
+        url = f"https://api.themoviedb.org/3/{media_type}/{media_id}/images"
+        params = {"api_key": CONFIG["TMDB_API_KEY"], "include_image_language": "en,null"}
+        data = self.client.get(url, params)
         
-        if data and data.get("imdb_id"):
-            imdb_id = data['imdb_id']
-            # Return MetaHub URL
-            return f"https://images.metahub.space/poster/medium/{imdb_id}/img"
+        if not data: return CONFIG["PLACEHOLDER"]
+
+        if "backdrops" in data and data["backdrops"]:
+            best = sorted(data["backdrops"], key=lambda x: x["vote_average"], reverse=True)[0]
+            return f"https://image.tmdb.org/t/p/original{best['file_path']}"
         
+        if "posters" in data and data["posters"]:
+            return f"https://image.tmdb.org/t/p/original{data['posters'][0]['file_path']}"
+
         return CONFIG["PLACEHOLDER"]
 
     def search_tmdb(self, query: str) -> List[Dict]:
@@ -120,7 +122,6 @@ class PlaylistGenerator:
             if not url: continue
 
             clean_title = title.replace(",", " -").strip()
-            # M3U Entry Construction
             entry = f'#EXTINF:-1 group-title="Stremio" tvg-logo="{image}",{clean_title}\n{url}'
 
             if "1080" in name_meta and "1080p" not in added:
@@ -162,20 +163,15 @@ class PlaylistGenerator:
         print(f"\n🚀 Processing: {media['title']}")
         print("-" * 60)
 
-        # --- MOVIE PROCESSING ---
         if media["type"] == "movie":
-            # 1. Get Poster from MetaHub
-            poster = self.service.get_imdb_poster(media["id"])
-            Logger.log(f"Poster Source: {poster}", "🖼️") # Explicitly print the MetaHub link
-            
-            # 2. Get Streams
+            backdrop = self.service.get_english_backdrop("movie", media["id"])
+            Logger.log(f"Image Source: {backdrop}", "🖼️")
             streams = self.service.get_streams(media["id"])
             if streams:
-                self.add_track(media["title"], streams, poster)
+                self.add_track(media["title"], streams, backdrop)
             else:
                 Logger.log("No streams found in backend.", "⚠️")
 
-        # --- TV PROCESSING ---
         elif media["type"] == "tv":
             details = self.service.get_tv_details(media["id"])
             seasons = details.get("number_of_seasons", 0)
@@ -188,7 +184,6 @@ class PlaylistGenerator:
                     s_num, e_num = ep["season_number"], ep["episode_number"]
                     ep_title = f"{media['title']} S{s_num:02d}E{e_num:02d} - {ep['name']}"
                     
-                    # Use TMDB Episode Still
                     thumb_path = ep.get("still_path")
                     thumb = f"https://image.tmdb.org/t/p/original{thumb_path}" if thumb_path else CONFIG["PLACEHOLDER"]
                     
@@ -197,7 +192,6 @@ class PlaylistGenerator:
                         self.add_track(ep_title, streams, thumb)
                     time.sleep(0.05)
 
-        # --- SAVE FILES ---
         print("-" * 60)
         safe_name = re.sub(r'[\\/*?:"<>|]', "", media['title']).replace(" ", "_")
         saved_any = False
