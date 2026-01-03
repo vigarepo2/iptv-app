@@ -2,17 +2,17 @@
 
 # ==============================================================================
 # Script Name: stremio.sh
-# Description: Professional M3U Generator with Bulletproof Image Handling
-# Author:      VigaRepo (Fixed Logic)
+# Description: Professional M3U Generator with TMDB & MetaHub Integration.
+#              Features: English Logos, MetaHub Fallback, 1080p/720p Sorting.
+# Author:      VigaRepo (Final Build with MetaHub)
+# Version:     3.5.0 (Production)
 # ==============================================================================
 
-# 1. Setup
 echo "╔════════════════════════════════════════════════════════════════════╗"
-echo "║           🚀 Initializing Stremio M3U Generator (Fixed)            ║"
+echo "║        🚀 Initializing Stremio M3U Generator (MetaHub Edition)     ║"
 echo "╚════════════════════════════════════════════════════════════════════╝"
 pip install -q requests
 
-# 2. Generate Python Logic
 cat << 'EOF' > m3u_core.py
 import requests
 import time
@@ -22,7 +22,6 @@ import os
 import json
 from typing import List, Dict, Optional
 
-# --- CONFIGURATION ---
 CONFIG = {
     "STREMIO_BASE_URL": "https://stremio--stremio--m72vl4mnxzkd.code.run",
     "TMDB_API_KEY": "f320fa5c189058be63b5420c044f64e1",
@@ -57,41 +56,31 @@ class MediaService:
     def __init__(self):
         self.client = APIClient()
 
+    def get_imdb_id(self, media_type: str, media_id: int) -> Optional[str]:
+        url = f"https://api.themoviedb.org/3/{media_type}/{media_id}/external_ids"
+        data = self.client.get(url, {"api_key": CONFIG["TMDB_API_KEY"]})
+        return data.get("imdb_id") if data else None
+
     def get_best_image(self, media_type: str, media_id: int, fallback_backdrop: str, fallback_poster: str) -> str:
-        """
-        Priority:
-        1. English Logo (Transparent)
-        2. Any Logo
-        3. Landscape Backdrop
-        4. Poster
-        5. Placeholder
-        """
         url = f"https://api.themoviedb.org/3/{media_type}/{media_id}/images"
         params = {"api_key": CONFIG["TMDB_API_KEY"], "include_image_language": "en,null"}
         
         data = self.client.get(url, params)
         
-        # 1. Try English/Null Logos
         if data and "logos" in data and len(data["logos"]) > 0:
             best = sorted(data["logos"], key=lambda x: x.get("vote_average", 0), reverse=True)[0]
             return f"https://image.tmdb.org/t/p/original{best['file_path']}"
 
-        # 2. Try Fetching ANY Logo (Relaxed Filter)
-        params["include_image_language"] = None
-        data = self.client.get(url, params)
-        if data and "logos" in data and len(data["logos"]) > 0:
-            best = sorted(data["logos"], key=lambda x: x.get("vote_average", 0), reverse=True)[0]
-            return f"https://image.tmdb.org/t/p/original{best['file_path']}"
+        imdb_id = self.get_imdb_id(media_type, media_id)
+        if imdb_id:
+            return f"https://images.metahub.space/logo/medium/{imdb_id}/img"
 
-        # 3. Fallback to Backdrop
         if fallback_backdrop:
             return f"https://image.tmdb.org/t/p/original{fallback_backdrop}"
             
-        # 4. Fallback to Poster
         if fallback_poster:
             return f"https://image.tmdb.org/t/p/original{fallback_poster}"
 
-        # 5. Give up
         return CONFIG["PLACEHOLDER_IMG"]
 
     def search_tmdb(self, query: str) -> List[Dict]:
@@ -109,7 +98,6 @@ class MediaService:
         for item in data.get("results", []):
             if item.get("media_type") not in ["movie", "tv"]: continue
             
-            # Safe Metadata Extraction
             results.append({
                 "id": item.get("id"),
                 "type": item.get("media_type"),
@@ -149,7 +137,6 @@ class PlaylistGenerator:
             url = s.get("url")
             if not url: continue
 
-            # Clean Title
             clean_title = title.replace(",", " -").strip()
             entry = f'#EXTINF:-1 group-title="Stremio" tvg-logo="{logo_url}",{clean_title}\n{url}'
 
@@ -192,9 +179,7 @@ class PlaylistGenerator:
         print(f"\n🚀 Processing: {media['title']}")
         print("-" * 60)
 
-        # --- MOVIE LOGIC ---
         if media["type"] == "movie":
-            # Smart Image Fetcher
             image = self.service.get_best_image(
                 "movie", 
                 media["id"], 
@@ -207,7 +192,6 @@ class PlaylistGenerator:
             else:
                 Logger.log("No streams found in backend.", "⚠️")
 
-        # --- TV SHOW LOGIC ---
         elif media["type"] == "tv":
             details = self.service.get_tv_data(media["id"])
             seasons = details.get("number_of_seasons", 0)
@@ -221,7 +205,6 @@ class PlaylistGenerator:
                     ep_name = ep.get("name", f"Episode {e_num}")
                     ep_title = f"{media['title']} S{s_num:02d}E{e_num:02d} - {ep_name}"
                     
-                    # Episode Still
                     thumb_path = ep.get("still_path")
                     thumb = f"https://image.tmdb.org/t/p/original{thumb_path}" if thumb_path else CONFIG["PLACEHOLDER_IMG"]
                     
@@ -230,10 +213,9 @@ class PlaylistGenerator:
                         self.add_track(ep_title, streams, thumb)
                     time.sleep(0.05)
 
-        # --- SAVE ---
         print("-" * 60)
         safe_name = re.sub(r'[\\/*?:"<>|]', "", media['title']).replace(" ", "_")
-        saved = False
+        saved_any = False
 
         for q, content in self.playlists.items():
             if len(content) > 1:
@@ -241,9 +223,9 @@ class PlaylistGenerator:
                 with open(fname, "w", encoding="utf-8") as f:
                     f.write("\n".join(content))
                 Logger.log(f"Generated: {fname}", "💾")
-                saved = True
+                saved_any = True
         
-        if not saved:
+        if not saved_any:
             Logger.log("No valid playlists generated.", "⚠️")
 
 if __name__ == "__main__":
@@ -253,5 +235,4 @@ if __name__ == "__main__":
         print("\nCancelled.")
 EOF
 
-# 3. Execute
 python3 m3u_core.py
