@@ -2,9 +2,10 @@
 
 # ==============================================================================
 # Script Name: stremio.sh
-# Description: M3U Generator (Hybrid: TMDB Search + IMDb/MetaHub Posters)
+# Description: M3U Generator (Hybrid: TMDB Search + MetaHub Posters)
+#              Verifies poster sources in console output.
 # Author:      VigaRepo
-# Version:     4.0.0 (Hybrid Source)
+# Version:     4.5.0 (Debug Edition)
 # ==============================================================================
 
 echo "╔════════════════════════════════════════════════════════════════════╗"
@@ -20,6 +21,7 @@ import sys
 import os
 from typing import List, Dict, Optional
 
+# --- CONFIGURATION ---
 CONFIG = {
     "STREMIO_BASE_URL": "https://stremio--stremio--m72vl4mnxzkd.code.run",
     "TMDB_API_KEY": "f320fa5c189058be63b5420c044f64e1",
@@ -60,8 +62,9 @@ class MediaService:
         data = self.client.get(url, {"api_key": CONFIG["TMDB_API_KEY"]})
         
         if data and data.get("imdb_id"):
-            # Use MetaHub for the IMDb Poster
-            return f"https://images.metahub.space/poster/medium/{data['imdb_id']}/img"
+            imdb_id = data['imdb_id']
+            # Return MetaHub URL
+            return f"https://images.metahub.space/poster/medium/{imdb_id}/img"
         
         return CONFIG["PLACEHOLDER"]
 
@@ -117,6 +120,7 @@ class PlaylistGenerator:
             if not url: continue
 
             clean_title = title.replace(",", " -").strip()
+            # M3U Entry Construction
             entry = f'#EXTINF:-1 group-title="Stremio" tvg-logo="{image}",{clean_title}\n{url}'
 
             if "1080" in name_meta and "1080p" not in added:
@@ -158,16 +162,20 @@ class PlaylistGenerator:
         print(f"\n🚀 Processing: {media['title']}")
         print("-" * 60)
 
-        # --- MOVIE: TMDB ID -> External IDs -> IMDb ID -> MetaHub Poster ---
+        # --- MOVIE PROCESSING ---
         if media["type"] == "movie":
+            # 1. Get Poster from MetaHub
             poster = self.service.get_imdb_poster(media["id"])
+            Logger.log(f"Poster Source: {poster}", "🖼️") # Explicitly print the MetaHub link
+            
+            # 2. Get Streams
             streams = self.service.get_streams(media["id"])
             if streams:
                 self.add_track(media["title"], streams, poster)
             else:
                 Logger.log("No streams found in backend.", "⚠️")
 
-        # --- TV: TMDB Episode Stills ---
+        # --- TV PROCESSING ---
         elif media["type"] == "tv":
             details = self.service.get_tv_details(media["id"])
             seasons = details.get("number_of_seasons", 0)
@@ -189,7 +197,7 @@ class PlaylistGenerator:
                         self.add_track(ep_title, streams, thumb)
                     time.sleep(0.05)
 
-        # --- SAVE ---
+        # --- SAVE FILES ---
         print("-" * 60)
         safe_name = re.sub(r'[\\/*?:"<>|]', "", media['title']).replace(" ", "_")
         saved_any = False
