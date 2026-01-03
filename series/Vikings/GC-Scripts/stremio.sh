@@ -2,19 +2,17 @@
 
 # ==============================================================================
 # Script Name: stremio.sh
-# Description: Enterprise-grade M3U Generator for Stremio Backend.
-#              Features: TMDB Integration, English Logos, 1080p/720p Sorting.
-# Author:      VigaRepo (Final Professional Build)
+# Description: Professional M3U Generator with Bulletproof Image Handling
+# Author:      VigaRepo (Fixed Logic)
 # ==============================================================================
 
-# 1. Environment Initialization
+# 1. Setup
 echo "╔════════════════════════════════════════════════════════════════════╗"
-echo "║           🚀 Initializing Stremio M3U Generator (Pro)              ║"
+echo "║           🚀 Initializing Stremio M3U Generator (Fixed)            ║"
 echo "╚════════════════════════════════════════════════════════════════════╝"
-echo "[INFO] Setting up Python environment..."
 pip install -q requests
 
-# 2. Generate Core Application
+# 2. Generate Python Logic
 cat << 'EOF' > m3u_core.py
 import requests
 import time
@@ -22,7 +20,7 @@ import re
 import sys
 import os
 import json
-from typing import List, Dict, Optional, Any
+from typing import List, Dict, Optional
 
 # --- CONFIGURATION ---
 CONFIG = {
@@ -30,7 +28,8 @@ CONFIG = {
     "TMDB_API_KEY": "f320fa5c189058be63b5420c044f64e1",
     "DB_INDEX": "1",
     "TIMEOUT": 15,
-    "RETRIES": 3
+    "RETRIES": 3,
+    "PLACEHOLDER_IMG": "https://placehold.co/600x400/000000/FFFFFF/png?text=No+Image"
 }
 
 class Logger:
@@ -39,7 +38,6 @@ class Logger:
         print(f"{icon} {msg}")
 
 class APIClient:
-    """Robust HTTP Client with Retry Logic."""
     def __init__(self):
         self.session = requests.Session()
         self.session.headers.update({"Accept": "application/json"})
@@ -51,7 +49,7 @@ class APIClient:
                 if response.status_code == 404: return None
                 response.raise_for_status()
                 return response.json()
-            except requests.exceptions.RequestException:
+            except Exception:
                 time.sleep(1)
         return None
 
@@ -59,22 +57,42 @@ class MediaService:
     def __init__(self):
         self.client = APIClient()
 
-    def get_english_logo(self, media_type: str, media_id: int, fallback_backdrop: str) -> str:
-        """Fetches the best available English PNG Logo. Fallback to Backdrop."""
+    def get_best_image(self, media_type: str, media_id: int, fallback_backdrop: str, fallback_poster: str) -> str:
+        """
+        Priority:
+        1. English Logo (Transparent)
+        2. Any Logo
+        3. Landscape Backdrop
+        4. Poster
+        5. Placeholder
+        """
         url = f"https://api.themoviedb.org/3/{media_type}/{media_id}/images"
-        params = {
-            "api_key": CONFIG["TMDB_API_KEY"],
-            "include_image_language": "en,null"
-        }
+        params = {"api_key": CONFIG["TMDB_API_KEY"], "include_image_language": "en,null"}
+        
         data = self.client.get(url, params)
         
+        # 1. Try English/Null Logos
         if data and "logos" in data and len(data["logos"]) > 0:
-            # Sort by vote_average to get the best quality logo
-            best_logo = sorted(data["logos"], key=lambda x: x["vote_average"], reverse=True)[0]
-            return f"https://image.tmdb.org/t/p/original{best_logo['file_path']}"
-        
-        # Fallback: Use the landscape backdrop if no logo found
-        return f"https://image.tmdb.org/t/p/original{fallback_backdrop}" if fallback_backdrop else ""
+            best = sorted(data["logos"], key=lambda x: x.get("vote_average", 0), reverse=True)[0]
+            return f"https://image.tmdb.org/t/p/original{best['file_path']}"
+
+        # 2. Try Fetching ANY Logo (Relaxed Filter)
+        params["include_image_language"] = None
+        data = self.client.get(url, params)
+        if data and "logos" in data and len(data["logos"]) > 0:
+            best = sorted(data["logos"], key=lambda x: x.get("vote_average", 0), reverse=True)[0]
+            return f"https://image.tmdb.org/t/p/original{best['file_path']}"
+
+        # 3. Fallback to Backdrop
+        if fallback_backdrop:
+            return f"https://image.tmdb.org/t/p/original{fallback_backdrop}"
+            
+        # 4. Fallback to Poster
+        if fallback_poster:
+            return f"https://image.tmdb.org/t/p/original{fallback_poster}"
+
+        # 5. Give up
+        return CONFIG["PLACEHOLDER_IMG"]
 
     def search_tmdb(self, query: str) -> List[Dict]:
         url = "https://api.themoviedb.org/3/search/multi"
@@ -91,19 +109,14 @@ class MediaService:
         for item in data.get("results", []):
             if item.get("media_type") not in ["movie", "tv"]: continue
             
-            # Basic Metadata
-            mid = item["id"]
-            mtype = item["media_type"]
-            title = item.get("title") or item.get("name")
-            date = (item.get("release_date") or item.get("first_air_date") or "N/A")[:4]
-            backdrop = item.get("backdrop_path")
-
+            # Safe Metadata Extraction
             results.append({
-                "id": mid,
-                "type": mtype,
-                "title": title,
-                "year": date,
-                "backdrop_path": backdrop 
+                "id": item.get("id"),
+                "type": item.get("media_type"),
+                "title": item.get("title") or item.get("name") or "Unknown",
+                "year": (item.get("release_date") or item.get("first_air_date") or "N/A")[:4],
+                "backdrop_path": item.get("backdrop_path"),
+                "poster_path": item.get("poster_path")
             })
         return results
 
@@ -115,12 +128,9 @@ class MediaService:
         return data.get("episodes", []) if data else []
 
     def get_streams(self, tmdb_id: int, season=None, episode=None) -> List[Dict]:
-        if season is not None:
-            sid = f"{tmdb_id}-{CONFIG['DB_INDEX']}:{season}:{episode}"
-            endpoint = "series"
-        else:
-            sid = f"{tmdb_id}-{CONFIG['DB_INDEX']}"
-            endpoint = "movie"
+        endpoint = "series" if season is not None else "movie"
+        sid = f"{tmdb_id}-{CONFIG['DB_INDEX']}"
+        if season is not None: sid += f":{season}:{episode}"
 
         url = f"{CONFIG['STREMIO_BASE_URL']}/stremio/stream/{endpoint}/{sid}.json"
         data = self.client.get(url)
@@ -139,8 +149,9 @@ class PlaylistGenerator:
             url = s.get("url")
             if not url: continue
 
-            # Clean M3U Entry
-            entry = f'#EXTINF:-1 group-title="Stremio" tvg-logo="{logo_url}",{title}\n{url}'
+            # Clean Title
+            clean_title = title.replace(",", " -").strip()
+            entry = f'#EXTINF:-1 group-title="Stremio" tvg-logo="{logo_url}",{clean_title}\n{url}'
 
             if "1080" in name_meta and "1080p" not in added:
                 self.playlists["1080p"].append(entry)
@@ -167,8 +178,8 @@ class PlaylistGenerator:
             return
 
         print(f"\n📺 Found {len(results)} results:")
-        for i, item in enumerate(results):
-            print(f"   {i+1}. {item['title']} ({item['year']}) [{item['type'].upper()}]")
+        for idx, item in enumerate(results):
+            print(f"   {idx + 1}. {item['title']} ({item['year']}) [{item['type'].upper()}]")
 
         try:
             choice = int(input("\n🔢 Select Number: ")) - 1
@@ -181,17 +192,22 @@ class PlaylistGenerator:
         print(f"\n🚀 Processing: {media['title']}")
         print("-" * 60)
 
-        # --- MOVIE PROCESSING ---
+        # --- MOVIE LOGIC ---
         if media["type"] == "movie":
-            # Fetch English Logo
-            logo = self.service.get_english_logo("movie", media["id"], media["backdrop_path"])
+            # Smart Image Fetcher
+            image = self.service.get_best_image(
+                "movie", 
+                media["id"], 
+                media.get("backdrop_path"), 
+                media.get("poster_path")
+            )
             streams = self.service.get_streams(media["id"])
             if streams:
-                self.add_track(media["title"], streams, logo)
+                self.add_track(media["title"], streams, image)
             else:
                 Logger.log("No streams found in backend.", "⚠️")
 
-        # --- TV PROCESSING ---
+        # --- TV SHOW LOGIC ---
         elif media["type"] == "tv":
             details = self.service.get_tv_data(media["id"])
             seasons = details.get("number_of_seasons", 0)
@@ -202,21 +218,22 @@ class PlaylistGenerator:
                 
                 for ep in episodes:
                     s_num, e_num = ep["season_number"], ep["episode_number"]
-                    ep_title = f"{media['title']} S{s_num:02d}E{e_num:02d} - {ep['name']}"
+                    ep_name = ep.get("name", f"Episode {e_num}")
+                    ep_title = f"{media['title']} S{s_num:02d}E{e_num:02d} - {ep_name}"
                     
-                    # Use Episode Still (Thumbnail)
+                    # Episode Still
                     thumb_path = ep.get("still_path")
-                    thumb = f"https://image.tmdb.org/t/p/original{thumb_path}" if thumb_path else ""
+                    thumb = f"https://image.tmdb.org/t/p/original{thumb_path}" if thumb_path else CONFIG["PLACEHOLDER_IMG"]
                     
                     streams = self.service.get_streams(media["id"], s_num, e_num)
                     if streams:
                         self.add_track(ep_title, streams, thumb)
                     time.sleep(0.05)
 
-        # --- SAVE FILES ---
+        # --- SAVE ---
         print("-" * 60)
         safe_name = re.sub(r'[\\/*?:"<>|]', "", media['title']).replace(" ", "_")
-        saved_any = False
+        saved = False
 
         for q, content in self.playlists.items():
             if len(content) > 1:
@@ -224,9 +241,9 @@ class PlaylistGenerator:
                 with open(fname, "w", encoding="utf-8") as f:
                     f.write("\n".join(content))
                 Logger.log(f"Generated: {fname}", "💾")
-                saved_any = True
+                saved = True
         
-        if not saved_any:
+        if not saved:
             Logger.log("No valid playlists generated.", "⚠️")
 
 if __name__ == "__main__":
@@ -236,5 +253,5 @@ if __name__ == "__main__":
         print("\nCancelled.")
 EOF
 
-# 3. Execute Python
+# 3. Execute
 python3 m3u_core.py
