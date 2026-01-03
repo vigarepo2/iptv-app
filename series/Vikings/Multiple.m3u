@@ -1,0 +1,50 @@
+#EXTM3U
+
+####################################
+# Vikings S01E01
+####################################
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/7cuiE0fvDXnCyVbQ5EXHtIz2sAr.jpg",Vikings S01E01 - Rites of Passage
+#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720
+https://stremio--stremio--m72vl4mnxzkd.code.run/dl/2NcDg93E2vkVYrXnpllWOkdN3dEVdOFk8erHzbBRCqGONGLvHIfWKHuVB/video.mkv
+#EXT-X-STREAM-INF:BANDWIDTH=5000000,RESOLUTION=1920x1080
+https://stremio--stremio--m72vl4mnxzkd.code.run/dl/FWLhXlI5rVRL5NJS5EFQSiQ58DsoaOH8M3NMIX3MxAAj0j39NMp5ale/video.mkv
+
+
+####################################
+# Vikings S01E02
+####################################
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/5IN9TOLnqt9dpIC3h6xnmGNqZuz.jpg",Vikings S01E02 - Wrath of the Northmen
+#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720
+https://stremio--stremio--m72vl4mnxzkd.code.run/dl/2NcDg93E2vkVYrXnpllWOkdN3dEVdOFk8erHzbBRCqGONGWuYZgnGFG3q/video.mkv
+#EXT-X-STREAM-INF:BANDWIDTH=5000000,RESOLUTION=1920x1080
+https://stremio--stremio--m72vl4mnxzkd.code.run/dl/FWLhXlI5rVRL5NJS5EFQSiQ58DsoaOH8M3NMIX3MxAAj0j5JEPtQ3Bz/video.mkv
+
+
+####################################
+# Vikings S01E03
+####################################
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/srvPbivGYPH0hpFA9rqsmDXnO2Z.jpg",Vikings S01E03 - Dispossessed
+#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720
+https://stremio--stremio--m72vl4mnxzkd.code.run/dl/2NcDg93E2vkVYrXnpllWOkdN3dEVdOFk8erHzbBRCqGONGWv1z7qLqzjL/video.mkv
+#EXT-X-STREAM-INF:BANDWIDTH=5000000,RESOLUTION=1920x1080
+https://stremio--stremio--m72vl4mnxzkd.code.run/dl/FWLhXlI5rVRL5NJS5EFQSiQ58DsoaOH8M3NMIX3MxAAj0j4rJiWtr7w/video.mkv
+
+
+####################################
+# Vikings S01E04
+####################################
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/lmGxHLz8EExTSrN4e44g6wCnvyE.jpg",Vikings S01E04 - Trial
+#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720
+https://stremio--stremio--m72vl4mnxzkd.code.run/dl/2NcDg93E2vkVYrXnpllWOkdN3dEVdOFk8erHzbBRCqGONGWv0hbUe3WPI/video.mkv
+#EXT-X-STREAM-INF:BANDWIDTH=5000000,RESOLUTION=1920x1080
+https://stremio--stremio--m72vl4mnxzkd.code.run/dl/FWLhXlI5rVRL5NJS5EFQSiQ58DsoaOH8M3NMIX3MxAAj0j71Am1eknR/video.mkv
+
+
+####################################
+# Vikings S01E05
+####################################
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/yKgFdIa1D4X4koiNFzfxv4G5T4b.jpg",Vikings S01E05 - Raid
+#EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1280x720
+https://stremio--stremio--m72vl4mnxzkd.code.run/dl/2NcDg93E2vkVYrXnpllWOkdN3dEVdOFk8erHzbBRCqGONGWv2R2XiOQ63/video.mkv
+#EXT-X-STREAM-INF:BANDWIDTH=5000000,RESOLUTION=1920x1080
+https://stremio--stremio--m72vl4mnxzkd.code.run/dl/FWLhXlI5rVRL5NJS5EFQSiQ58DsoaOH8M3NMIX3MxAAiUOnAph84Nlu/video.mkv
