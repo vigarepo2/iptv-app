@@ -2,14 +2,13 @@
 
 # ==============================================================================
 # Script Name: stremio.sh
-# Description: Professional M3U Generator with TMDB & MetaHub Integration.
-#              Features: English Logos, MetaHub Fallback, 1080p/720p Sorting.
-# Author:      VigaRepo (Final Build with MetaHub)
-# Version:     3.5.0 (Production)
+# Description: M3U Generator (Hybrid: TMDB Search + IMDb/MetaHub Posters)
+# Author:      VigaRepo
+# Version:     4.0.0 (Hybrid Source)
 # ==============================================================================
 
 echo "╔════════════════════════════════════════════════════════════════════╗"
-echo "║        🚀 Initializing Stremio M3U Generator (MetaHub Edition)     ║"
+echo "║      🚀 Initializing Stremio M3U Generator (Hybrid Edition)        ║"
 echo "╚════════════════════════════════════════════════════════════════════╝"
 pip install -q requests
 
@@ -19,7 +18,6 @@ import time
 import re
 import sys
 import os
-import json
 from typing import List, Dict, Optional
 
 CONFIG = {
@@ -28,7 +26,7 @@ CONFIG = {
     "DB_INDEX": "1",
     "TIMEOUT": 15,
     "RETRIES": 3,
-    "PLACEHOLDER_IMG": "https://placehold.co/600x400/000000/FFFFFF/png?text=No+Image"
+    "PLACEHOLDER": "https://placehold.co/600x900/000000/FFFFFF/png?text=No+Image"
 }
 
 class Logger:
@@ -42,13 +40,13 @@ class APIClient:
         self.session.headers.update({"Accept": "application/json"})
 
     def get(self, url: str, params: Optional[Dict] = None) -> Optional[Dict]:
-        for attempt in range(CONFIG["RETRIES"]):
+        for _ in range(CONFIG["RETRIES"]):
             try:
                 response = self.session.get(url, params=params, timeout=CONFIG["TIMEOUT"])
                 if response.status_code == 404: return None
                 response.raise_for_status()
                 return response.json()
-            except Exception:
+            except:
                 time.sleep(1)
         return None
 
@@ -56,32 +54,16 @@ class MediaService:
     def __init__(self):
         self.client = APIClient()
 
-    def get_imdb_id(self, media_type: str, media_id: int) -> Optional[str]:
-        url = f"https://api.themoviedb.org/3/{media_type}/{media_id}/external_ids"
+    def get_imdb_poster(self, tmdb_id: int) -> str:
+        """Fetches IMDb ID from TMDB and converts to MetaHub Poster URL."""
+        url = f"https://api.themoviedb.org/3/movie/{tmdb_id}/external_ids"
         data = self.client.get(url, {"api_key": CONFIG["TMDB_API_KEY"]})
-        return data.get("imdb_id") if data else None
-
-    def get_best_image(self, media_type: str, media_id: int, fallback_backdrop: str, fallback_poster: str) -> str:
-        url = f"https://api.themoviedb.org/3/{media_type}/{media_id}/images"
-        params = {"api_key": CONFIG["TMDB_API_KEY"], "include_image_language": "en,null"}
         
-        data = self.client.get(url, params)
+        if data and data.get("imdb_id"):
+            # Use MetaHub for the IMDb Poster
+            return f"https://images.metahub.space/poster/medium/{data['imdb_id']}/img"
         
-        if data and "logos" in data and len(data["logos"]) > 0:
-            best = sorted(data["logos"], key=lambda x: x.get("vote_average", 0), reverse=True)[0]
-            return f"https://image.tmdb.org/t/p/original{best['file_path']}"
-
-        imdb_id = self.get_imdb_id(media_type, media_id)
-        if imdb_id:
-            return f"https://images.metahub.space/logo/medium/{imdb_id}/img"
-
-        if fallback_backdrop:
-            return f"https://image.tmdb.org/t/p/original{fallback_backdrop}"
-            
-        if fallback_poster:
-            return f"https://image.tmdb.org/t/p/original{fallback_poster}"
-
-        return CONFIG["PLACEHOLDER_IMG"]
+        return CONFIG["PLACEHOLDER"]
 
     def search_tmdb(self, query: str) -> List[Dict]:
         url = "https://api.themoviedb.org/3/search/multi"
@@ -97,18 +79,15 @@ class MediaService:
         results = []
         for item in data.get("results", []):
             if item.get("media_type") not in ["movie", "tv"]: continue
-            
             results.append({
                 "id": item.get("id"),
                 "type": item.get("media_type"),
-                "title": item.get("title") or item.get("name") or "Unknown",
-                "year": (item.get("release_date") or item.get("first_air_date") or "N/A")[:4],
-                "backdrop_path": item.get("backdrop_path"),
-                "poster_path": item.get("poster_path")
+                "title": item.get("title") or item.get("name"),
+                "year": (item.get("release_date") or item.get("first_air_date") or "N/A")[:4]
             })
         return results
 
-    def get_tv_data(self, tmdb_id: int) -> Dict:
+    def get_tv_details(self, tmdb_id: int) -> Dict:
         return self.client.get(f"https://api.themoviedb.org/3/tv/{tmdb_id}", {"api_key": CONFIG["TMDB_API_KEY"]}) or {}
 
     def get_episodes(self, tmdb_id: int, season: int) -> List[Dict]:
@@ -130,7 +109,7 @@ class PlaylistGenerator:
         self.playlists = {"1080p": ["#EXTM3U"], "720p": ["#EXTM3U"], "480p": ["#EXTM3U"]}
         self.count = 0
 
-    def add_track(self, title: str, streams: List[Dict], logo_url: str):
+    def add_track(self, title: str, streams: List[Dict], image: str):
         added = set()
         for s in streams:
             name_meta = (s.get("name", "") + " " + s.get("title", "")).lower()
@@ -138,7 +117,7 @@ class PlaylistGenerator:
             if not url: continue
 
             clean_title = title.replace(",", " -").strip()
-            entry = f'#EXTINF:-1 group-title="Stremio" tvg-logo="{logo_url}",{clean_title}\n{url}'
+            entry = f'#EXTINF:-1 group-title="Stremio" tvg-logo="{image}",{clean_title}\n{url}'
 
             if "1080" in name_meta and "1080p" not in added:
                 self.playlists["1080p"].append(entry)
@@ -152,7 +131,7 @@ class PlaylistGenerator:
         
         if added:
             self.count += 1
-            Logger.log(f"Added: {title} | Quality: {list(added)}", "✅")
+            Logger.log(f"Added: {title} | Q: {list(added)}", "✅")
 
     def run(self):
         print("\n🔎 TMDB Search")
@@ -164,12 +143,12 @@ class PlaylistGenerator:
             Logger.log("No results found.", "❌")
             return
 
-        print(f"\n📺 Found {len(results)} results:")
+        print(f"\n📺 Results:")
         for idx, item in enumerate(results):
             print(f"   {idx + 1}. {item['title']} ({item['year']}) [{item['type'].upper()}]")
 
         try:
-            choice = int(input("\n🔢 Select Number: ")) - 1
+            choice = int(input("\n🔢 Select: ")) - 1
             if choice < 0 or choice >= len(results): raise ValueError
         except:
             Logger.log("Invalid selection.", "❌")
@@ -179,21 +158,18 @@ class PlaylistGenerator:
         print(f"\n🚀 Processing: {media['title']}")
         print("-" * 60)
 
+        # --- MOVIE: TMDB ID -> External IDs -> IMDb ID -> MetaHub Poster ---
         if media["type"] == "movie":
-            image = self.service.get_best_image(
-                "movie", 
-                media["id"], 
-                media.get("backdrop_path"), 
-                media.get("poster_path")
-            )
+            poster = self.service.get_imdb_poster(media["id"])
             streams = self.service.get_streams(media["id"])
             if streams:
-                self.add_track(media["title"], streams, image)
+                self.add_track(media["title"], streams, poster)
             else:
                 Logger.log("No streams found in backend.", "⚠️")
 
+        # --- TV: TMDB Episode Stills ---
         elif media["type"] == "tv":
-            details = self.service.get_tv_data(media["id"])
+            details = self.service.get_tv_details(media["id"])
             seasons = details.get("number_of_seasons", 0)
 
             for s in range(1, seasons + 1):
@@ -202,17 +178,18 @@ class PlaylistGenerator:
                 
                 for ep in episodes:
                     s_num, e_num = ep["season_number"], ep["episode_number"]
-                    ep_name = ep.get("name", f"Episode {e_num}")
-                    ep_title = f"{media['title']} S{s_num:02d}E{e_num:02d} - {ep_name}"
+                    ep_title = f"{media['title']} S{s_num:02d}E{e_num:02d} - {ep['name']}"
                     
+                    # Use TMDB Episode Still
                     thumb_path = ep.get("still_path")
-                    thumb = f"https://image.tmdb.org/t/p/original{thumb_path}" if thumb_path else CONFIG["PLACEHOLDER_IMG"]
+                    thumb = f"https://image.tmdb.org/t/p/original{thumb_path}" if thumb_path else CONFIG["PLACEHOLDER"]
                     
                     streams = self.service.get_streams(media["id"], s_num, e_num)
                     if streams:
                         self.add_track(ep_title, streams, thumb)
                     time.sleep(0.05)
 
+        # --- SAVE ---
         print("-" * 60)
         safe_name = re.sub(r'[\\/*?:"<>|]', "", media['title']).replace(" ", "_")
         saved_any = False
@@ -226,7 +203,7 @@ class PlaylistGenerator:
                 saved_any = True
         
         if not saved_any:
-            Logger.log("No valid playlists generated.", "⚠️")
+            Logger.log("No files generated.", "⚠️")
 
 if __name__ == "__main__":
     try:
