@@ -37,7 +37,8 @@ https://newsxott.in/hls/indianewspunjab.m3u8
 #https://xfireflix.fun/file/opplex/live.m3u8?id=244817&e=.m3u8
 #EXTINF:-1 tvg-id="MHOneNews" tvg-name="MH One News" tvg-logo="https://mhone.in/uploads/logo/logo_6657fd2fafbc20-72263395.png" group-title="News",MH One News
 #http://exa_edge_2skyd.cdn77.me/58eab44776cce29a3ffa1c2450830fd23a0f76c7af6ac649c8b9749af25e99/mono.m3u8?token=11df073630ec5703d725ecb3c2d576d2
-http://filex.me:8080/live/1234567890/1234567890/522711.m3u8
+https://livestream.jswk.online/mhonenews/live/index.m3u8
+#http://filex.me:8080/live/1234567890/1234567890/522711.m3u8
 #EXTINF:-1 tvg-id="PTCNews" tvg-name="PTC News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1b/PTC_NEWS_LOGO.png" group-title="News",PTC News
 http://plus.newdns.world:8080/BrunoDaniela/cCjFAGrl5R/5908
 #EXTINF:-1 tvg-id="ABPSanjha" tvg-name="ABP Sanjha" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/ABP_Sanjha_logo.svg/693px-ABP_Sanjha_logo.svg.png" group-title="News",ABP Sanjha
